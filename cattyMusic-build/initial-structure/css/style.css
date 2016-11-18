@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex; /* flex superpowers activaed! */
+	flex-direction: column; /* Stack the flex-items vertically not the default horizontal view */
+	background-color: #fff;
+	margin: 0;
+	font-family: Lato, sans-serif;
+	color: #222;
+	font-size: 0.9em;
+	height: 100%;
+}
+
+main {
+	flex: 1 0 auto; /*fill the available space*/
+	display: flex;
+}
+
+aside {
+	flex: 0 0 40px; /*as a flex item: do not grow or shrink. Just stay fixed at 40px*/
+	display: flex; /*Now you're a flex-container, you can decide how your flex-items are laid*/
+	flex-direction: column; /*Stack my flex-item s vertically...change the default direction*/
+	justify-content: space-around; /*Interesting...since direction is changed, this works on the vertical direcion*/
+	align-items: center; /*direction is changed! This affects the horizontal direction*/
+	background-color: #f2f2f2; /*make me pretty*/
+}
+
+/*font size for the icons*/
+aside i.fa {
+	font-size: 0.9em;
+}
+
+.content {
+	flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.music-head {
+  flex: 0 0 280px; /*Same memo, don't grow or shrink - stay at 280px*/
+  display: flex;  
+  padding: 40px;
+  background-color: #4e4e4e;
+}
+
+.music-list {
+	flex: 1 0 auto;
+	list-style-type: none;
+	padding: 5px 10px 0px;
+}
+
+li {
+  display: flex; <!--Target each list containing the paragraphs-->
+  padding: 0 20px;
+  min-height: 50px;
+}
+
+li p {
+  flex: 0 0 25%; <!--This is the sweet sauce-->
+}
+
+li span.catty-cloud {
+  border: 1px solid black;
+  font-size: 0.6em;
+  padding: 3px;
+}
+
+li:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+
+.catty-music{
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	font-weight: 300;
+	color: #fff;
+	padding-left: 50px;
+	letter-spacing: 0.1em;
+}
+
+.catty-music div:nth-child(1){
+	margin-bottom: auto;
+}
+
+.catty-music div:nth-child(2){
+	margin-top: 0;
+}
+
+.catty-music div:nth-child(2) i.fa{
+	font-size: 0.9em;
+	padding: 0 0.7em;
+	font-weight: 300;
+}
+
+.catty-music div:nth-child(1) p:first-child{
+  font-size: 1.8em;
+  margin: 0 0 10px;
+}
+
+.catty-music div:nth-child(1) p:not(:first-child){
+  font-size: 0.9em;
+  margin: 2px 0;
+}
+
+footer {
+	flex: 0 0 90px; /*don't grow or shrink - just stay at a height of 90px.*/
+	padding: 10px;
+  color: #fff;
+  background-color: rgba(61, 100, 158, .9);
+}

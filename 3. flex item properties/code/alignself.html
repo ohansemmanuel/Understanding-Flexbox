@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox DB</title>
+	<style type="text/css">
+		html,
+		body {
+			height: 100%;
+		}
+
+		ul {
+			display: flex;
+			border: 1px solid red;
+			padding: 0;
+			list-style: none;
+			justify-content: space-between;
+			align-items: flex-start;
+			min-height: 50%;
+			background-color: #e8e8e9;
+		}
+
+		li {
+		  width: 100px;
+		  background-color: #8cacea;
+		  margin: 8px;
+		  font-size: 2rem;
+		}
+
+		/* Select first list element within the unordered list*/
+		li:first-child {
+			background-color: red;
+			align-self: auto;
+		}	
+	</style>
+</head>
+<body>
+<ul>
+	<li>I am list 1</li> <!--selected list element-->
+	<li>I am list 2</li>
+	<li>I am list 3</li>			  	 	 			
+</ul>
+</body>
+</html>

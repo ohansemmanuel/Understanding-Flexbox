@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox DB</title>
+	<style type="text/css">
+		html,
+		body {
+			height: 100%;
+		}
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			align-content: stretch;
+			border: 1px solid red;
+			padding: 0;
+			list-style: none;
+			min-height: 50%;
+			background-color: #e8e8e9;
+		}
+
+		li {
+		  width: 100px;
+		  background-color: #8cacea;
+		  margin: 8px;
+		}
+
+		/*apply to all list elements except the first*/
+		li:not(:first-child) {
+			font-size: 2rem;
+		}	
+	</style>
+</head>
+<body>
+<ul>
+	<li>I am list 1</li>
+	<li>I am list 2</li>
+	<li>I am list 3</li>
+	<li>I am list 4</li>
+	<li>I am list 5</li>
+	<li>I am list 6</li>
+	<li>I am list 7</li>
+	<li>I am list 8</li>
+	<li>I am list 9</li>
+	<li>I am list 10</li>			  	 	 			
+</ul>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox DB</title>
+	<style type="text/css">
+		html,
+		body {
+			height: 100%;
+		}
+
+		ul {
+			display: flex;
+			border: 1px solid red;
+			padding: 0;
+			list-style: none;
+			background-color: #e8e8e9;
+		}
+
+		li {
+			color: #fff;	
+		  	width: 100px;
+		  	font-size: 2em;
+		 	min-height: 100px;
+		  	background-color: #8cacea;
+		 	margin: 8px;
+		}
+
+		/*apply to the 1st list element, n=1*/
+		li:nth-child(1) {
+			order: 1;
+		}
+		/*apply to the 3rd list element, n=3*/
+		li:nth-child(3) {
+			order: 1
+		}		
+	</style>
+</head>
+<body>
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>		  	 	 			
+</ul>
+</body>
+</html>
