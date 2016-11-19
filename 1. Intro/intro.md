@@ -1,12 +1,10 @@
-# Understanding Flexbox: Introduction
+# Introduction
 
-If you only get to read only one article on the Flexbox model, this is it. Period. 
+If you only get to read only one article on the Flexbox model, this may be it.
 
-The title for this article, "Understanding Flexbox: Everything you need to know", may seem rather messed up as no one can fit all there is to anything within one article and even if such person existed - It certainly isn't me. However I'm going to give it a good trial and try to discuss everything you may need to get going with the powerful flexbox model.
-
-Go ahead and skim through this article, from top to bottom (if you didn't already do so) and you'd notice it's quite a lot to take in at once. If for any reasons you'd prefer to read this as a pdf document you can have access to anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7). It's that simple.
-
-So, let's get started. I'm really excited to show you the vast richness Flexbox brings. Trust me, Flexbox can be a pain in the butt when getting started, but I'll do my best to make things as clear and detailed as possible, using schematics and diagrams where possible.
+The title for this article, _"Understanding Flexbox: Everything you need to know",_ may seem rather messed up. No one can fit everything there is to a subject within one article. Even if such person existed - I may not be qualified for such. However, I'd take on the challenge head on, and try to discuss everything you need to get going with the powerful Flexbox model.
+ 
+So, let's get started, and I'm really excited to show you the vast richness Flexbox brings. Trust me, Flexbox can be a pain in the butt when getting started, but I'll do my best to make things as clear and detailed as possible, using schematics and diagrams where possible.
 
 ## Why Use Flexbox?
 A lot of changes have been made to the CSS language in the past few years. The introduction of filters, transitions and transforms to the css language were cool, but the age long  problem of crafting intelligent layouts with css persisted, and that got many of us writing _hackish css_. I wrote a lot of those, and never really understood them. We lways had to deal with floats, table display hacks and the consequences they bring. If you've written CSS for sometime, you crainly can relate with this, and if not, welcome to a beter world!
@@ -20,7 +18,6 @@ If that sound too formal, I understand the feeling. In just a bit, I'll explain 
 Whether you write css in your dreams or you're just getting started, you'll feel right at home - hopefully.  
 There's a lot to say, so grab a cup of your favorite drink (or just get comfortable) as I take you through a pretty long journey. 
 
-As a reminder, you may get the entire tutorial as a pdf document [here](https://ohansemmanuel.typeform.com/to/zD5yI7). 
 
 ## How do I start using the flexbox model?
 This is certainly the first thing you want to know and thank goodness, the idea behind starting off with the flexbox model is quite simple. Here it is: You must first define a **flex container** (explicitly an element to be a flex container ) to start using the flexbox model.
@@ -86,6 +83,7 @@ I have used two key words, I'd like to lay more emphasis on. Theyare vital to un
 
 This is the foundation for using the flexbox model, and as soon as that's understood, more interesting things lie ahead.
 
-Here is where I wrap up the Introduction o the Flexbox model. This is the next article in line, [the flex container properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)
+Here is where I wrap up the Introduction o the Flexbox model, and this is the next article in line, **[the flex container properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)**
 
-If you think you like how this article is coming along, don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!
+If you think you like how this article is coming along, don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated! and If for any reasons you'd prefer to the entire tutorial as a single pdf document you can have access to anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7).
+
