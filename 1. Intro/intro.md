@@ -2,7 +2,8 @@
 
 If you only get to read only one article on the Flexbox model, this may be it.
 
-The title for this article, _"Understanding Flexbox: Everything you need to know",_ may seem rather messed up. No one can fit everything there is to a subject within one article. Even if such person existed - I may not be qualified for such. However, I'd take on the challenge head on, and try to discuss everything you need to get going with the powerful Flexbox model.
+The title for this article, _"Understanding Flexbox: Everything you need to know",_ may seem rather messed up as no one can fit everything there is to a subject within one article, and even if such person existed - I may not be qualified for such. 
+However, I'd take on the challenge head on, and try to discuss everything you need to get going with the powerful Flexbox model.
  
 So, let's get started, and I'm really excited to show you the vast richness Flexbox brings. Trust me, Flexbox can be a pain in the butt when getting started, but I'll do my best to make things as clear and detailed as possible, using schematics and diagrams where possible.
 
@@ -58,12 +59,13 @@ li {
 ```
 And here is what we have: 
 
-![Flexbox kicks in](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_2_zpsjvonxs0e.png)
+![default link style](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_3_zpsytzach4m.png)
 
 You may not have noticed, but something's happened already! 
 
 By default, "divs" in css stack vertically from top to bottom like this:
-![default link style](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_3_zpsytzach4m.png)
+
+![Flexbox kicks in](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_2_zpsjvonxs0e.png)
 
 The image above is exactly what you'd have displayed on the screen if you had not included the ```display: flex``` on the unordered list, ```ul```. However, with the inclusion of that simple one-liner, you already see a change in display. The list elemnts are now stacked horizontally, from lef to right. I really need you to follow along now as the Flexbox model kicks in as soon as you introduce the display property on any parent element. It's all started now.
 
