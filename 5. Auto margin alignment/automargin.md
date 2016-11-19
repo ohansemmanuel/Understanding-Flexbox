@@ -79,3 +79,8 @@ or result stays the same
 **margin-auto-4.png**
 
 li
+
+## Practical Use cases
+1. Github mobile navigation (simple)
+2. Twitter desktop Navigation (hardest)
+3. Default Bootstrap Nav (Normal)
