@@ -35,7 +35,9 @@ Okay, did I make you more confused there? Let me explain. In regular html, when 
 
 Likewise, to use the flexbox model, you must first set a certain parent element (in this case the unordered list tag) to be a **flex container** _(aka flexible container)_ by using `display: flex` or `display: inline-flex` for the inline variation and from there you're all set to use the Flexbox model. Told you it wasn't as difficult as you expected.
 
+
 ![flexbox tip](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/flexbox-tip-1_zps6y7o7rc2.jpg)
+
 
 Going by the example I gave, using an unordered list and a bunch of list elements, this is what that would bring us to.
 
@@ -59,13 +61,17 @@ li {
 ```
 And here is what we have: 
 
+
 ![default link style](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_3_zpsytzach4m.png)
+
 
 You may not have noticed, but something's happened already! 
 
 By default, "divs" in css stack vertically from top to bottom like this:
 
+
 ![Flexbox kicks in](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_2_zpsjvonxs0e.png)
+
 
 The image above is exactly what you'd have displayed on the screen if you had not included the ```display: flex``` on the unordered list, ```ul```. However, with the inclusion of that simple one-liner, you already see a change in display. The list elemnts are now stacked horizontally, from lef to right. I really need you to follow along now as the Flexbox model kicks in as soon as you introduce the display property on any parent element. It's all started now.
 
@@ -85,7 +91,7 @@ I have used two key words, I'd like to lay more emphasis on. Theyare vital to un
 
 This is the foundation for using the flexbox model, and as soon as that's understood, more interesting things lie ahead.
 
-Here is where I wrap up the Introduction o the Flexbox model, and this is the next article in line, **[the flex container properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)**
+Here is where I wrap up the Introduction to the Flexbox model, and this is the next article in line, **[THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)**
 
-If you think you like how this article is coming along, don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated! and If for any reasons you'd prefer to the entire tutorial as a single pdf document you can have access to anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7).
+_If you think you like how this article is coming along, please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated! and if for any reasons you'd prefer to read the entire tutorial as a single pdf document, one you can have access to at anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
