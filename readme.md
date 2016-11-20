@@ -37,7 +37,7 @@ I'll first walk you through the basics of Flexbox. I believe any attempt at unde
 
 ![flexbox fundamentals](http://i.imgur.com/iGH6nKU.png)
 
-Learning the fundamentals is cool. What's even cooler is applying this knowledge to real world use. Other than the many small things you'll build, I'll wrap things up with walking you through building this music app layout completely done with Flexbox.
+Learning the fundamentals is cool. What's even cooler is applying this knowledge to real world use. Other than the many small things you'll build, I'll wrap things up with this layout completely done with Flexbox.
 
 
 ![catty-board](http://i.imgur.com/cCztePy.png)
@@ -46,7 +46,7 @@ Doesn't that look pretty? I believe you'd get to understand the inner workings o
 
 I'm pretty much excited to show all this to you
 
-![Happy dude](http://i.imgur.com/fsLPYRN.gif)
+![Happy dude](http://i.imgur.com/fsLPYRN.gifv)
 _gif by [Jona Dinges ](https://dribbble.com/jonadinges)_
  
 
