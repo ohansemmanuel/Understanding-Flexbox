@@ -1,12 +1,9 @@
 # Introduction
 
-If you get to read only one article on the Flexbox model, this may be it.
+Learning Flexbox can be a pain in the butt. For most persons, it's not particularly fun at first. It challenges you to rethink how you've dealt with layouts in css. 
 
-The title, "Understanding Flexbox: Everything you need to know", may seem messed up. No one can fit everything there is to a subject within one article, and even if such person existed, it's not me.
+Don't fret. I really would walk you through all you need to know. So, let's get started.
 
-Still, I'd take on the challenge to discuss everything you need to get good with the CSS Flexbox model. I hope you're ready for it.
- 
-Let's get started, and I'm excited to show you the vast richness Flexbox brings. Trust me, Flexbox can be a pain in the butt when getting started, but I'll do my best to make things as clear as possible. I'll highlight important points with the use of schematics and pictures where possible.
 
 ## Why Use Flexbox?
 A lot of changes have been made to the CSS language in the past few years. The introduction of filters, transitions, and transforms to the css language were cool. We all loved them, but something else was missing. Something we all craved for. 
