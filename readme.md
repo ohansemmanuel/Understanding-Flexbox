@@ -46,7 +46,7 @@ Doesn't that look pretty? I believe you'd get to understand the inner workings o
 
 I'm pretty much excited to show all this to you
 
-![Happy dude](http://i.imgur.com/fsLPYRN.gifv)
+![Happy dude](http://i.imgur.com/fsLPYRN.gif)
 _gif by [Jona Dinges ](https://dribbble.com/jonadinges)_
  
 
