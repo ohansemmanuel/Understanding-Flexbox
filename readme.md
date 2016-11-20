@@ -52,6 +52,7 @@ _gif by [Jona Dinges ](https://dribbble.com/jonadinges)_
 
 I wouldn't start off with just building stuffs. There's going to be some boring drilling first. You may not like that, but it's all in the process of making you adept at Flexbox. Let's get started! 
 
-Next Read: **[INTRODUCION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/1. Intro/intro.md)**
 
 _If for any reasons you'd prefer to read the entire tutorial as a single pdf document, one you can have access to anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+
+#### Next Read: [INTRODUCTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/1. Intro/intro.md)
