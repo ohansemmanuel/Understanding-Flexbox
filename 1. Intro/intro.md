@@ -1,5 +1,7 @@
 # Introduction
 
+![Understanding flexbox - intro image](http://i.imgur.com/CqAGAC5.jpg)
+
 Learning Flexbox can be a pain in the butt. For most persons, it's not particularly fun at first. It challenges you to rethink how you've dealt with layouts in css. 
 
 Don't fret. I really would walk you through all you need to know. So, let's get started.
@@ -98,8 +100,7 @@ This is the foundation for using the flexbox model, and as soon as that's unders
 So, here is where I wrap up the Introduction to the Flexbox model.
 
 
-_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_ 
-
-_Would prefer to read the entire tutorial in a single pdf document? [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
 **Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)**
