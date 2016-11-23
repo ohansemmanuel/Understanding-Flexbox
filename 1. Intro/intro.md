@@ -95,9 +95,11 @@ I have used two key words, and I'd like to lay more emphasis on them. They are v
 
 This is the foundation for using the flexbox model, and as soon as that's understood, more interesting things lie ahead.
 
-So, here is where I wrap up the Introduction to the Flexbox model, and the next article in line is, **[THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)**
+So, here is where I wrap up the Introduction to the Flexbox model.
 
-_If you think you like how this article is coming along, please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_ 
 
-_If for any reasons you'd prefer to read the entire tutorial as a single pdf document, one you can have access to at anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_ 
 
+_Would prefer to read the entire tutorial in a single pdf document? [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+
+**Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)**
