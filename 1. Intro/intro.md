@@ -8,7 +8,7 @@ Don't fret. I really would walk you through all you need to know. So, let's get 
 ## Why Use Flexbox?
 A lot of changes have been made to the CSS language in the past few years. The introduction of filters, transitions, and transforms to the css language were cool. We all loved them, but something else was missing. Something we all craved for. 
 
-Crafting Intelligent page layouts with CSS was a problem that seemed to have persisted for too long. This got many of us writing _hackish css_. We always had to deal with floats, table display hacks and faced the consequences they brought. If you've written CSS for sometime, you can relate with this, and if not, welcome to a better world!
+Crafting Intelligent page layouts with CSS seemed to have persisted for too long, and this got many of us writing _hackish css_. We always had to deal with floats, table display hacks and faced the consequences they brought. If you've written CSS for sometime, you can relate with this, and if not, welcome to a better world!
 
 It seems like our agonies as designers and front-end developers have finally been heard. This time, in grand style. All that hackish CSS may all be gone now. No more incessant use of floats, table-cell displays and hacks you never understood. It's time to embrace a cleaner modern syntax for crafting intelligent layouts. Welcome the CSS Flexbox model.
 
@@ -73,18 +73,18 @@ By default, "divs" in CSS stack vertically, from top to bottom.
 ![default link style](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_2_zpsjvonxs0e.png)
 
 
-The image above is exactly what you'd have displayed on the screen if you had not included the ```display: flex``` on the unordered list. However, with the inclusion of that simple one-liner, you already see a change in display. The list elements are now stacked horizontally, from left to right. 
+The image above is the result you may have hoped for. However, with the inclusion of that simple one-liner, ```display:flex```, a change in layout is immediately seen. The list elements are now stacked horizontally, from left to right. Just like they would if you used float
 
 ![Flexbox kicks in](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_3_zpsytzach4m.png)
 
-I really need you to follow along. The Flexbox model kicks in as soon as you introduce the display property on any parent element. It's all started now.
+I really need you to follow along here. The Flexbox model kicks in as soon as you introduce the display property on any parent element. It's all started now.
 
-You may not understand why that change in display came to be right now, I promise I'll go into the inner workings of that very soon. For now, blind trust would suffice. Simply understand that the inclusion of the display property kicks off the Flexbox model.
+You may not understand why that change in the orientation of the list elements came to be right now. I promise I'll go into the inner workings of that very soon. For now, blind trust would suffice. Simply understand that the inclusion of the display property starts off the Flexbox model.
 
-There's one more thing I need to call your attention to. As soon as you introduce that display property, the unordered list automatically becomes the **flex container** and the child elements (in this case, the list elements ```li```) become **flex items**. These terms would come up over and over again as I walk you through some more intresting  things the Flexbox model has in place.
+There's one more thing I need to call your attention to. As soon as you set the display property to flex, the unordered list automatically becomes the **flex container** and the child elements (in this case, the list elements ```li```) become **flex items**. These terms would come up over and over again as I walk you through some more intresting  things the Flexbox model has in place.
 
 
-I have used two key words, I'd like to lay more emphasis on. They are vital to understanding what lies ahead.
+I have used two key words, and I'd like to lay more emphasis on them. They are vital to understanding what lies ahead.
 
 1. Flex container : The parent element you've set ```display: flex``` on.
 2. Flex items : The children elements within a Flex container.
