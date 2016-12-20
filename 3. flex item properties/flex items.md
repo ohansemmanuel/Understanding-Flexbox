@@ -1,15 +1,17 @@
 ## The Flex Item Properties
 ``` Order || Flex-grow || Flex-shrink || Flex-basis```
 
-Like the flex-container, a couple alignment properties are also made available on the flex items.
+Like the flex-container, a couple alignment properties are also made available on all flex items. These are properties you can use on any children of a Flex container.
+Let me walk you through them.
 
 ### 1. Order
-The order property allows for reordering the flex items within a container without affecting the source code. The default value is 0 and it takes negative and positive values.
+The order property allows for reordering the flex items within a container. With the order property you can move a flex-item from one position to another. Just like you would do with sortable lists. This is done without affecting the source code. The position of the flex items in the html source code isn't changed.
+
+The default value for the order property is 0. The order property may take on either negative or positive values.
 
 
 It's worth noting that the flex items are reordered based on the number values. From lowest to highest.  For example :
-
-Consider the unordered list below, which consists of 4 list items. 
+Consider the unordered list below, containing 4 list items.
 
 ```html
 <ul>
@@ -19,11 +21,27 @@ Consider the unordered list below, which consists of 4 list items.
 	<li>4</li>		  	 	 			
 </ul>
 ```
-Remember that by default, the flex items all have an ```order``` value of zero. So you get this after some basic styling.
+
+By default, the flex items all have an ```order``` value of zero. Just as you expected, you get this after some basic styling:
 
 ![default](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_22_zpspzuplcpn.png)
 
-What if for some reason, you wanted the first flex item to appear last without changing the source order in the html document? That's where the ```order``` property comes to play.
+The Flex items displayed just as specified in the html source order.
+
+What if for some reason, you wanted the first flex item to appear last? Without changing the source order in the html document?
+
+Without changing the source order means you do not get to do this:
+
+```html
+<ul>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>1</li>	  	 	 			
+</ul>
+```
+
+ That's where the ```order``` property comes to play.
 All you need to do is make the ```order``` value of flex item number 1 higher than that of other list items. (If you ever used the ```z-index``` property on block elements, you'd be familiar with this sort of thing)
 
 ```css
@@ -35,9 +53,16 @@ All you need to do is make the ```order``` value of flex item number 1 higher th
 
 ```
 
-The flex items are then re-ordered from lowest to highest.
+The flex items are then re-ordered from lowest to highest. Do not forget that list items 2, 3, and 4 all have the order value of 0. ```order: 0```. Flex-item 1 has an order value of 1. ```order: 1```.  
+The flex-items are then sorted from lowest to highest order value.
+
 
 ![one](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_23_zpsh8wuweny.png)
+
+Flex-items 2, 3, and 4 all have an order value of 1. So, the html source order is kept - no modifications made to the default display.
+
+Sure you got that!
+
 
 What if you gave flex-item 2 an order value of 2? Yes, you guessed right. It goes up the stack too, since it now represents the highest ```order`` value.
 
@@ -46,26 +71,28 @@ What if you gave flex-item 2 an order value of 2? Yes, you guessed right. It goe
 And what happens when two flex items have the same order value?  
 In the example below, flex-item 1 and 3 are given the same ```order values```.
 
-```css	
+```css
 	li:nth-child(1) {
 		order: 1;
 	}
 
 	li:nth-child(3) {
 		order: 1;
-	}	
+	}
 ```		
 
 ![one and three](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_25_zpsu0aodhvy.png)
 
 
-The items are still arranged from lowest to highest, but this time, flex-item 3 appears last because it comes after flex-item 1 in the html document.  
-The re-ordering is based on  the positions in the source file, when two or more flex items have the same order value.
+The items are still arranged from lowest to highest, but this time, flex-item 3 appears last because it comes after flex-item 1 in the source file (html document).
+  
+NB: The re-ordering is based on  the positions in the source file, when two or more flex items have the same order value.
 
 
 ### 2. Flex grow and flex shrink
-The beauty of flex items is being "flexible", but the ```flex-grow``` and ```flex-shrink``` properties allow us play around this 'flexibility'.  
-The ```flex-grow``` and ```flex-shrink``` property control how much a flex-item should "grow" (extend or expand) if there's extra space, or "shrink" if there are no "extra" spaces and they can take any of the values ```0 || positive numbers```
+The beauty of flex items is being "flexible". The ```flex-grow``` and ```flex-shrink``` properties allow us play around this 'flexibility' even more.
+
+The ```flex-grow``` and ```flex-shrink``` property control how much a flex-item should "grow" (extend or expand) if there's extra space, or "shrink" if there are no "extra" spaces. They may take up any values rnging from 0 to any positive number. ```0 || positive numbers```
 
 Consider the simple unordered list comprising just one list item:
 ```html
@@ -179,7 +206,7 @@ li {
 ```
 
 This is same as writing ```flex: default``` and It's the default behavior of all flex items.
-Let me break this down, just a bit... 
+Let me break this down, just a bit...
 
 ![flex-shorthand](http://i.imgur.com/5DV0ZeR.jpg)
 
@@ -288,7 +315,7 @@ ul {
 	list-style: none;
 	justify-content: space-between;
 	align-items: flex-start; /*affects all flex-items*/
-	min-height: 50%; 
+	min-height: 50%;
 	background-color: #e8e8e9;
 }
 
@@ -296,6 +323,6 @@ li {
   width: 100px;
   background-color: #8cacea;
   margin: 8px;
-  font-size: 2rem;	
+  font-size: 2rem;
 }
 ```

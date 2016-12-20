@@ -83,7 +83,7 @@ I really need you to follow along here. The Flexbox model kicks in as soon as yo
 
 You may not understand why that change in the orientation of the list elements came to be right now. I promise I'll go into the inner workings of that very soon. For now, blind trust would suffice. Simply understand that the inclusion of the display property starts off the Flexbox model.
 
-There's one more thing I need to call your attention to. As soon as you set the display property to flex, the unordered list automatically becomes the **flex container** and the child elements (in this case, the list elements ```li```) become **flex items**. These terms would come up over and over again as I walk you through some more intresting  things the Flexbox model has in place.
+There's one more thing I need to call your attention to. As soon as you set the display property to flex, the unordered list automatically becomes the **flex container** and the child elements (in this case, the list elements ```li```) become **flex items**. These terms would come up over and over again as I walk you through some more interesting  things the Flexbox model has in place.
 
 
 I have used two key words, and I'd like to lay more emphasis on them. They are vital to understanding what lies ahead.
