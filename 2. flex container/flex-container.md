@@ -168,3 +168,10 @@ The ```align-content``` property takes the same values as ```align-items``` apar
 ![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_20_zpsvtll0vn0.png)
 
 ![center](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_21_zpsy0u5amdd.png)
+
+...and that concludes this.
+
+_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+
+**Next Read: [THE FLEX-ITEM PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/3.%20flex%20item%20properties/flex%20items.md)**
