@@ -2,7 +2,7 @@
 
 ![Understanding Flexbox - auto-margin](http://i.imgur.com/bipZFFi.jpg)
 
-When you use ```margin: auto``` on flex-items, things can look quite weird if you do not understand what's going on. It may result in unexpected results if you had no idea what was going on, but I'm going to explain all that.
+When you use ```margin: auto``` on flex-items, things can look quite weird if you do not understand what's going on. It may result in unexpected results, but I'm going to explain all that.
 
 When you use ```margin:auto``` on a flex-item, the direction (left, right or both) that has the value 	```auto``` applied will take up any empty space left.
 
@@ -87,3 +87,9 @@ li
 1. Github mobile navigation (simple)
 2. Twitter desktop Navigation (hardest)
 3. Default Bootstrap Nav (Normal)
+
+
+_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+
+**Next Read: [SWITCHING FLEX DIRECTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/6.%20Switching%20Flex%20direction/readme.md)**

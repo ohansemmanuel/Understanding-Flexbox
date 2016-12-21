@@ -1,4 +1,4 @@
-## A closer look at absolute and relative flex items.
+## A closer look at Absolute and Relative flex-items.
 
 ![Understanding Flexbox - absolute and relative flex](http://i.imgur.com/uL7XQwX.jpg)
 
@@ -9,6 +9,7 @@ So, what really is the difference between these two?. The major difference betwe
 The spacing within a relative flex item is computed based on it's content size. In an absolute flex item, it is based solely on "flex" NOT content.
 
 ![albert_einstein quote](http://i.imgur.com/KM8EZcn.jpg)  
+_image from alberteinsteinquotes.com_
 
 Here's a good example.
 
@@ -36,7 +37,7 @@ li {
 }
 ```
 
-Here's the result:
+**Here's the result:**
 
 ![relative_flex](http://image.prntscr.com/image/4599e12c9915403fa086a5f1cd4dc20b.png)
 
@@ -65,7 +66,7 @@ li {
 }
 ```
 
-Here's the result:
+**Here's the result:**
 
 ![absolute_flex](http://image.prntscr.com/image/8285e749472642fca16fcae7dc006ff9.png)
 
@@ -80,4 +81,4 @@ Here's a recap. Absolute flex-items have their widths based solely on flex, whil
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
-**Next Read: [AUTO-MARGIN ALIGNMENT](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/5.%20Auto%20margin%20alignment/automargin.md)**
+**Next Read: [AUTO-MARGIN ALIGNMENT](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/5.%20Auto%20margin%20alignment/auto_margin.md)**

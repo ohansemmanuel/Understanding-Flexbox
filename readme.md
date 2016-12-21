@@ -9,7 +9,7 @@
 2. [The Flex-container Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)
 3. [The Flex-item Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/3. flex item properties/flex items.md)
 4. [Absolute and Relative Flex](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/4. Absolute and Relative flex items)
-5. [Auto-Margin Alignment](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/5. Auto margin alignment/automargin.md)
+5. [Auto-Margin Alignment](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/5.%20Auto%20margin%20alignment/auto_margin.md)
 6. [Switching Flex Direction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/6. Switching Flex direction/readme.md)
 7. [Flexbox Solved That](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/7. Flexbox solved that)
 8. [Building a Music App Layout with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/8. Building a Practical Layout with Flexbox)
@@ -21,7 +21,7 @@ The title, _"Understanding Flexbox: Everything you need to know,"_ may seem mess
 Still, I'd take on the challenge to discuss "everything" you need to get good with the CSS Flexbox model. I hope you're ready for it.
 
 
-### The Learning Curve 
+### The Learning Curve
 
 Here is a tweet from [Philip Roberts](https://andyet.com/team/phil/), someone I respect very much.
 
@@ -47,9 +47,9 @@ I'm pretty much excited to show all of this to you
 
 ![Happy dude](http://i.imgur.com/fsLPYRN.gif)
 _gif by [Jona Dinges ](https://dribbble.com/jonadinges)_
- 
 
-I wouldn't start off with just building stuffs. There's going to be some boring drilling first. You may not like that, but it's all part of the process of making you adept at Flexbox. Let's get started! 
+
+I wouldn't start off with just building stuffs. There's going to be some boring drilling first. You may not like that, but it's all part of the process of making you adept at Flexbox. Let's get started!
 
 
 _If for any reasons you'd prefer to read the entire tutorial as a single pdf document, one you can have access to anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
