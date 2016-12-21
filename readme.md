@@ -11,8 +11,8 @@
 4. [Absolute and Relative Flex](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/4. Absolute and Relative flex items)
 5. [Auto-Margin Alignment](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/5.%20Auto%20margin%20alignment/auto_margin.md)
 6. [Switching Flex Direction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/6. Switching Flex direction/readme.md)
-7. [Flexbox Solved That](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/7. Flexbox solved that)
-8. [Building a Music App Layout with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/8. Building a Practical Layout with Flexbox)
+7. [Flexbox Solved That](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/7.%20Flexbox%20solved%20that/readme.md)
+8. [Building a Music App Layout with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/8.%20Building%20a%20Practical%20Layout%20with%20Flexbox/readme.md)
 9. [Responsive design with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/9. Responsive layout with Flexbox/readme.md)
 10. [Final Topics](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/9. Responsive layout with Flexbox/readme.md)
 

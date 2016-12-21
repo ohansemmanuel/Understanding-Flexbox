@@ -9,17 +9,28 @@ You remember when I talked about the default main and cross axis being in the "l
 
 ![main axis](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/flexbox-engl_zpsgmowsbbi.jpg)
 
-Well, you can change that too, and that's what happens when you use ```flex-direction: column``` as described in an earlier section (remember the default value is ```flex-direction: row```). When you do this, the main and cross axis are changed as seen below:
+Well, you can change that too. Which is exactly what happens when you use ```flex-direction: column``` as described in an earlier section (remember the default value is ```flex-direction: row```). When you do this, the main and cross axis are changed as seen below:
 
 ![flex-direction-changed](http://i.imgur.com/01q5kWa.jpg)
 
-If you've ever written any text in the English language, then you already know we write from left-to-right and top-to-bottom! That's equally the direction taken for the default main and cross axis of the flexbox too. However, on switching the flex direction to ```column```, it no longer follows the "English Language" pattern but japanese! Oh yes, japanese.
-If you've written any text in the Japanese language, then this will be familiar! (for the records, I've never written any japanese text). Japanese text is written from top-to-bottom and left-to-right! Not so weird, huh?
+If you've ever written any text in the English language, then you already know he language is written from left-to-right and top-to-bottom. That's equally the direction taken for the default main and cross axis of the flexbox too.  
+However, on switching the flex direction to ```column```, it no longer follows the "English Language" pattern but Japanese! Oh yes, Japanese.
+
+If you've written any text in the Japanese language, then this will be familiar! (for the records, I've never written any texts in Japanese). Japanese text is written from top-to-bottom and left-to-right! Not so weird, huh?
 
 That explains why this can be a bit confusing for English writers.
 
-Take a look at this example... our standard unordered list with 3 list items, except this time I'll change the flex-direction
+![flex-direction-changed](http://i.imgur.com/01q5kWa.jpg)
 
+Take a look at this example. The standard unordered list with 3 list items, except this time I'll change the flex-direction.
+
+```html
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+```
 
 ```css
 ul {
@@ -53,16 +64,16 @@ li {
 
 ![flex-direction 3](http://i.imgur.com/VLcqEBU.png)
 
-__wtf??__
+__wtf??__ The height is affected, NOT the width???
 
-I earlier said the flex-basis property defines the initial-width of every flex-item. I guess i was wrong - or better put, I was thinking in "English". Let's switch to japanese for a bit.
+I earlier said the flex-basis property defines the initial-width of every flex-item. I was wrong - or better put, I was thinking in "English". Let's switch to Japanese for a bit.
 
-Upon switching flex-direction, every property that affected the main-axis now affects the __new__ main axis and a property like ```flex-basis``` that affected the width of the flex-items along the main-axis now affects the height NOT width. The direction has been switched!
+Upon switching flex-direction, please note that every property that affected the main-axis now affects the __new__ main axis and a property like ```flex-basis``` that affected the width of the flex-items along the main-axis now affects the height NOT width. The direction has been switched!
 
 So even if you used the ```flex-grow``` property, it'd affect the height too!
 Essentially, every flex property that operated on the horizontal axis (the then main-axis) now operates on the new main-axis, vertically - It's just a switch in directions.
 
-Let's see one more example. I promise you'd undersand better now.
+Let's see one more example. I promise you'd get a better understanding after this.
 
 Reduce the width of the flex-items we looked at just before now, and they no longer fill the entire space:
 
@@ -74,12 +85,18 @@ li {
 
 ![width-changed](http://i.imgur.com/rrrIB19.png)
 
-what if you wanted to move the list items to the center of the screen?
-In English language, that'd mean "__move the text to the right of the main-axis__". So, you'd have used ```justify-content: flex-end``` However, doing that here does NOT work.
+What if you wanted to move the list items to the center of the screen?
+In English language, which is how you've dealt with flex-containers until now. That'd mean "__move the flex-items to the center of the main-axis__". So, you'd have used ```justify-content: center``
+However, doing that now does NOT work.
 
-So let's think in Japanese. The main-axis is from top-to-down, you don't need that. You need to "__move the text from the center of the cross axis".
+Since the direction's changed, the center  is along the cross-axis. Take a look again:
 
-Any flex-container property rings a bell here? Yeah, the ```align-items``` property deals with alignment on the cross-axis. So to move those to the center, you'd do this:
+![flex-direction-changed](http://i.imgur.com/01q5kWa.jpg)
+
+So let's think in Japanese. The main-axis is from top-to-down, you don't need that. The cross-axis is from left-to-right. Sounds like what you need.
+Hence, you need to "__move the flex-items from the start of the cross-axis to the center".
+
+Any flex-container property rings a bell here? Yeah, the ```align-items``` property . The `align-items` property deals with alignment on the cross-axis. So to move those to the center, you'd do this:
 
 ```css
 li {
@@ -90,4 +107,14 @@ and voila! We've got our centered flex-items.
 
 ![flex-direction 4](http://i.imgur.com/dc7IVs8.png)
 
-It can get a bit confusing, I know. While studying the flexbox model, i noticed a lot of css books skipped this part. A bit of thinking in japanese would go a long way to help and it's worth understanding that these properties work based on the "direction" in place.
+It can get a bit confusing, I know. Just go over it one more time.
+
+While studying the flexbox model, I noticed a lot of CSS books skipped this part. A bit of thinking in Japanese would go a long way to help and it's worth understanding that these properties work based on the ```flex-direction``` in place.
+
+
+I'm sure you learnt something new again. I'm having fun explaining this. I hope you are having fun too :-)
+
+_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+
+**Next Read: [FLEXBOX SOLVED THAT](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/7.%20Flexbox%20solved%20that/readme.md)**
