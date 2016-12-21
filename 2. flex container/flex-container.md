@@ -3,7 +3,7 @@
 
 ![Understanding flexbox - flex-container](http://i.imgur.com/xK4JUVX.jpg)
 
-In the last aricle, I established some core principles. What flex-containers and flex-items are, and how to initiate the Flexbox model. Now is a good time to put all of that to good use. So, brace up.
+In the last article, I established some core principles. What flex-containers and flex-items are, and how to initiate the Flexbox model. Now is a good time to put all of that to good use. So, brace up.
 
 Having set a parent element as a flex container, a couple of **alignment properties** are made available to be used on the flex container.  
 Just like you'd define the width property on a block element as `width: 200px`, there are 6 different properties the flex container can take on, and defining these properties do NOT take a different approach.
@@ -89,7 +89,7 @@ There's one more value, ```wrap-reverse```. Yes, you guessed right. It lets the 
 
 
 
-### 3. Flex flow
+### 3. Flex-flow
 The ```flex-flow``` is a shorthand property which takes ```flex-direction``` and ```Flex-wrap``` values. Ever used the ```border``` shorthand property? ```border: 1px solid red```. It's the same concept here. Multiple values declared in one line.
 
 Re-writing the code above would yield this:
@@ -106,7 +106,7 @@ ul {
 Try out the other combinations this could take. ```flex-flow: row no-wrap```, ```flex-flow: column wrap```, ```flex-flow: column no-wrap```
 I'm sure you understand what those would produce. Give it a try.
 
-### 4. Justify content
+### 4. Justify-content
 Life's really good with the flexbox model! If you still doubt that, the justify-content property would convince you. It may take on any of these 5 values:
 
 ```css
@@ -114,27 +114,101 @@ ul {
 	justify-content: flex-start || flex-end || center || space-between || space-around
 }
 ```
-And what exactly does the justify content property bring to the table? Well, It may remind you of the text-align property.  
-The justify content property defines how flex items are laid out on the main axis
-The default value is ```flex-start```, which groups the flex-items to the start of the main axis, ```flex-end``` groups the flex-items to end of the main axis, ```center``` does just you'd expect - centering the flex items along the main axis, ```space-between``` keeps the same space between each flex item and space around keeps the same spacing around flex items.
-
-**include descriptive images just after its text. Especially for ```space-between``` and ```space-around```, be Super descriptive**
-
-![flex-start](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_8_zpsazx7bio1.png)
-
-![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_9_zps63fw9qu3.png)
-
-![flex-center](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_10_zpscx3ppxxl.png)
-
-![space-around](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_11_zpszve3gmih.png)
-
-![space-between](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_12_zpslp8gv2ai.png)
+And what exactly does the justify content property bring to the table? Well, It may remind you of the text-align property.
 
 
-Don't worry if these seem like too much to get a hold of, with a bit of practice you should get very comfortable with the syntax.
+The justify content property defines how flex items are laid out on the main axis.
+
+Consider the simple unordered list below:
+
+```html
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ul>
+```
+
+Adding up some basic styling...
+
+```css
+  ul {
+    border: 1px solid red;
+    padding: 0;
+    list-style: none;
+    background-color: #e8e8e9;
+  }
+
+  li {
+      background-color: #8cacea;
+      width: 100px;
+      height: 100px;
+      margin: 8px;
+      padding: 4px;
+  }
+```
+
+We have this:
+
+![initial](http://image.prntscr.com/image/a1aa457e10044a30b8fa3bd1d5fd4e31.png)
+
+With the ```justify-content property```, the three flex-items may be aligned across the main-axis in whatever way you desire. Here's the breakdown of what's possible.
+
+Fist off, the default value, ```flex-start```, groups all flex-items to the start of the main axis.
+```css
+  li {
+    justify-content: flex-start;
+  }
+```
+
+![flex-start](http://i.imgur.com/Ct9Q1P5.png)
+
+```flex-end``` groups the flex-items to the end of the main axis.
+```css
+  li {
+    justify-content: flex-end;
+  }
+```
+![flex-end](http://i.imgur.com/Rn3C5oL.png)
+
+```Center``` does just you'd expect - centering the flex items along the main axis.
+```css
+  li {
+    justify-content: center;
+  }
+```
+![flex-center](http://i.imgur.com/kpm0rG0.png)
+
+```Space-between``` keeps the same space between each flex item.
+```css
+  li {
+    justify-content: space-between;
+  }
+```
+![space-between](http://i.imgur.com/cUYgqJs.png)
+
+Uhmm, did you notice anything different here? Take a look again:
+
+![Understanding-Flexbox, Space between](http://i.imgur.com/lH5HtXV.jpg)
+
+
+Finally, ```space-around``` keeps the same spacing around flex items.
+```css
+  li {
+    justify-content: space-around;
+  }
+```
+![space-around](http://i.imgur.com/anlXv8t.png)
+
+A second look doesn't hurt:
+
+![Understanding-Flexbox, Space around](http://i.imgur.com/krodS0R.jpg)
+
+Don't worry if these seem like too much to get a hold of. With a bit of practice you will get very comfortable with the syntax.
 
 ### 5. Align-items
-The align items property can be set to any of these values:
+The ```align-items``` property is somewhat similar to the ```justify-content``` property. Having understood the ```justify-content``` property, this should be easier to take in.
+```Align-items``` can be set to any of these values: flex-start || flex-end || center || stretch || baseline
 
 ```css
 /*ul represents any flex container*/
@@ -142,38 +216,52 @@ ul {
 	align-items: flex-start || flex-end || center || stretch || baseline
 }
 ```
-It may also remind you of the  vertical align property as it defines how flex items are laid out on the **cross axis**.
-The default value is ```stretch```, and this will 'stretch' the flex-items so they fill the entire height of the flex container.  
-The ```flex-start``` and ```flex-end``` properties does what you expect - group the items to the start or end, along the cross-axis. And the baseline value? It aligns items along their baselines. Don't worry if you don't get that. The images below would really help you understand better.  
+It defines how flex-items are laid out on the **cross axis**. This is the difference between the ```align-items``` property and ```justify-content```.
 
-![stretch](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_13_zps1nwnarjp.png)
+The default value is ```stretch```, and this will 'stretch' the flex-items so they fill the entire height of the flex container.
 
+![stretch](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_13_zps1nwnarjp.png)  
+
+The ```flex-start``` and ```flex-end``` properties do what you expect - group the items to the start or end of the cross-axis.
 ![flex-start](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_14_zpsjq3fqh9g.png)
 
 ![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_15_zpstwulkeyt.png)
 
+The center value is equally predictable. It aligns items to the center of the flex-container.
+
 ![center](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_16_zpsa0ougr7u.png)
 
+And the baseline value? It aligns flex-items along their baselines.
 ![baseline](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_17_zpsovbaj6w0.png)
 
+"Baseline" really sounds fancy. It appears to look just like ````flex-start``` but it is subtly different. What the heck is "baseline"? This should help:
+
+![Understanding-Flexbox: Baseline](http://i.imgur.com/7vwt8Pb.jpg)  
 
 Isn't it awesome the amount of control you have here?
 
 
-### 6. Align content
-Remember when you added more list elements to our unordered list? Yes, you got a multi-line flex container by using the ```flex-wrap``` property.
+### 6. Align-content
+Remember when you added more list elements to our unordered list? You got a multi-line flex container by using the ```flex-wrap``` property. The ```align-content``` property is used on multi-line flex-containers.
 
-The ```align-content``` property takes the same values as ```align-items``` apart from ````baseline``` and it controls how the flex-items are aligned in a multi-line flex container. The default is also ```stretch```
+It takes the same values as ```align-items``` apart from ````baseline```. By definition, it controls how the flex-items are aligned in a multi-line flex container. Just like ```align-items```, the default value is also ```stretch```
 
+These are values you're familiar with. So, here's how they affect a multi-line flex-container.
+
+i. Stretch
 ![stretch](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_18_zpsy8iaetza.png)
 
+ii. Flex-start
 ![flex-start](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_19_zpsdumnrbis.png)
 
+iii. Flex-end
 ![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_20_zpsvtll0vn0.png)
 
+iv. Center
 ![center](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_21_zpsy0u5amdd.png)
 
-...and that concludes this.
+...and that concludes this. You now understand how to use the various flex-container properties. Pretty soon, you'll need these to work through the practical sections coming up. I guess you're feeling much more confident now, Right?  
+More fun stuffs lie ahead!
 
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
