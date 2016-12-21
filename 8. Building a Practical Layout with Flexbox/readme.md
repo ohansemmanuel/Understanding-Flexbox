@@ -1,4 +1,7 @@
 ## Building a Practical Layout with Flexbox
+
+![Understanding Flexbox - building a music app](http://i.imgur.com/WTTAWO5.jpg)
+
 Let’s walk through a practical example and apply our newly acquired flex skills! 
 
 It took me days to come up with a good project for which you may really learn to apply the flexbox model practically, but out of the lack of a creative option, I could only come up with a music player app layout for cats. I called it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere in mars.  

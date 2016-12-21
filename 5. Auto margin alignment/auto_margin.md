@@ -1,4 +1,7 @@
 ## Beware of ```margin: auto```  alignment on flex items.
+
+![Understanding Flexbox - auto-margin](http://i.imgur.com/bipZFFi.jpg)
+
 When you use ```margin: auto``` on flex-items, things can look quite weird if you do not understand what's going on. It may result in unexpected results if you had no idea what was going on, but I'm going to explain all that.
 
 When you use ```margin:auto``` on a flex-item, the direction (left, right or both) that has the value 	```auto``` applied will take up any empty space left.

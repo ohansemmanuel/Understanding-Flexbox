@@ -1,6 +1,8 @@
 ## What happens when you switch flex-direction?
 **Warning**: Some weird stuff on the way.
 
+![Understanding Flexbox - switching flex-direction](http://i.imgur.com/ILmpwiY.jpg)
+
 When starting off with learning the flexbox model, this part was a bit confusing and I bet a lot of newcomers to the flex world find it that way too.
 
 You remember when I talked about the default main and cross axis being in the "left-to-right" and "top-to-bottom" directions?

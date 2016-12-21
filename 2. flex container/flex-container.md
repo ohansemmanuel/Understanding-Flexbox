@@ -1,6 +1,10 @@
 ## The Flex Container Properties
 `Flex-direction || Flex-wrap || Flex-flow || Justify-content || Align-items || Align-content`
 
+![Understanding flexbox - flex-container](http://i.imgur.com/xK4JUVX.jpg)
+
+In the last aricle, I established some core principles. What flex-containers and flex-items are, and how to initiate the Flexbox model. Now is a good time to put all of that to good use. So, brace up.
+
 Having set a parent element as a flex container, a couple of **alignment properties** are made available to be used on the flex container.  
 Just like you'd define the width property on a block element as `width: 200px`, there are 6 different properties the flex container can take on, and defining these properties do NOT take a different approach.
 

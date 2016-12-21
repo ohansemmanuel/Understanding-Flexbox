@@ -1,4 +1,7 @@
 ## Responsive design with flexbox
+
+![Understanding Flexbox - responsive design](http://i.imgur.com/kCh7pgs.jpg)
+
 Books have been written on responsive design, and good books at that. Since this article focuses on the flexbox model, I wouldn't be taking a deep plunge into responsive designs generally.
 
 

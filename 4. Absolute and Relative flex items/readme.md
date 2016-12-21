@@ -1,4 +1,7 @@
 ## A closer look at absolute and relative flex items.
+
+![Understanding Flexbox - absolute and relative flex](http://i.imgur.com/uL7XQwX.jpg)
+
 Earlier, I talked about relative and absolute flex items. The major difference between these two is, the spacing in (and around) a relative flex item is computed based off the content size, and in an absolute flex item it is based solely on "flex".  
 Here's a good example.
 

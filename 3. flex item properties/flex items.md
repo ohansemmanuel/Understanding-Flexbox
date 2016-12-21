@@ -1,10 +1,12 @@
 ## The Flex Item Properties
 ``` Order || Flex-grow || Flex-shrink || Flex-basis```
 
-In the previous article, we looked at flex containers and the alignment properties available on them. Beautiful indeed. Sure you're getting a feel of what lies ahead now.
-I'd take my focus off flex-containers now, and walk you through flex-items and the alignment properties equally made available on them.
+![Understanding flexbox - flex-item](http://i.imgur.com/7klPbEY.jpg) 
 
-Like the flex-container, a couple alignment properties are also made available on all flex items. These are properties you can use on any children of a Flex container. 
+In the previous article, we looked at flex containers and their alignment properties. Beautiful indeed. Sure you're getting a feel of what lies ahead now.
+I'd take my focus off flex-containers now, and walk you through flex-items and their alignment properties.
+
+Like flex-containers, a couple alignment properties are also made available on all flex-items. These are properties you can use on any children of a flex-container. 
 Let me walk you through them.
 
 ### 1. Order

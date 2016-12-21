@@ -1,4 +1,8 @@
 ## Oh my gosh, flexbox solved that?
+
+![Understanding Flexbox - flexbox solved that](http://i.imgur.com/nPq92Jm.jpg)
+
+
 Some classic problems we've faced with css have been made really easy and trivially solved by flexbox.
 [Philip Walton](https://philipwalton.com/) in his [solved-by-flexbox project](https://github.com/philipwalton/solved-by-flexbox) lists 6 classic problems (as of this writing) and extensively discusses the previous limitations with css and the current solution flexbox provides.
 
