@@ -26,7 +26,7 @@ main {
 aside {
 	flex: 0 0 40px; /*as a flex item: do not grow or shrink. Just stay fixed at 40px*/
 	display: flex; /*Now you're a flex-container, you can decide how your flex-items are laid*/
-	flex-direction: column; /*Stack my flex-item s vertically...change the default direction*/
+	flex-direction: column; /*Stack my flex-items vertically...change the default direction*/
 	justify-content: space-around; /*Interesting...since direction is changed, this works on the vertical direcion*/
 	align-items: center; /*direction is changed! This affects the horizontal direction*/
 	background-color: #f2f2f2; /*make me pretty*/
@@ -45,7 +45,7 @@ aside i.fa {
 
 .music-head {
   flex: 0 0 280px; /*Same memo, don't grow or shrink - stay at 280px*/
-  display: flex;  
+  display: flex;
   padding: 40px;
   background-color: #4e4e4e;
 }
@@ -57,13 +57,13 @@ aside i.fa {
 }
 
 li {
-  display: flex; <!--Target each list containing the paragraphs-->
+  display: flex; /*Target each list containing the paragraphs*/
   padding: 0 20px;
   min-height: 50px;
 }
 
 li p {
-  flex: 0 0 25%; <!--This is the sweet sauce-->
+  flex: 0 0 25%; /*This is the sweet sauce*/
 }
 
 li span.catty-cloud {

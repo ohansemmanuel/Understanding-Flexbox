@@ -2,19 +2,19 @@
 
 ![Understanding Flexbox - building a music app](http://i.imgur.com/WTTAWO5.jpg)
 
-Let’s walk through a practical example and apply our newly acquired flex skills! 
+After walking through the boring rigorous stuffs, you deserve some fun project. It's time to walk through a practical example and apply your newly acquired Flex skills!
 
-It took me days to come up with a good project for which you may really learn to apply the flexbox model practically, but out of the lack of a creative option, I could only come up with a music player app layout for cats. I called it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere in mars.  
+It took me days to come up with a good project. Out of the lack of a creative option, I came up with a music app layout for cats. I call it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere in mars :-)  
 
 Here's what the finished layout looks like, and it is completely laid out with Flexbox.
 
 ![catty-board](http://i.imgur.com/EYSoc5A.png)
 
-See my JS fiddle here **add jsfiddle link**  
+You may view it online [here](https://www.jsbin.com/)  
 
 I've got a confession to make though. I've done something considered wrong by many, and that is, I've completely built the overall layout with flexbox. For many reasons this may not be ideal, but it's intentional in this scenario. I intentionally want to point out a lot of "what can i do with flexbox" within one project.
 
-If you're curious as to when it's considered right or wrong to use the flexbox model, you may check out my article, [Flexbox is awesome but it's NOT welcome here](https://medium.com/@ohansemmanuel/flexbox-is-awesome-but-its-not-welcome-here-a90601c292b6#.zbf4msgoh) 
+If you're curious as to when it's considered right or wrong to use the flexbox model, you may check out my article, [Flexbox is awesome but it's NOT welcome here](https://medium.com/@ohansemmanuel/flexbox-is-awesome-but-its-not-welcome-here-a90601c292b6#.zbf4msgoh)
 
 
 I got that off my chest! Now I'm sure no one's going to yell at me after reading this.
@@ -25,7 +25,7 @@ As with any reasonable project, a bit of planning goes a long way sifting throug
 
 Whenever building a layout with flexbox, you'd want to look out for what sections of your layout may stand out as flex-containers, so you may leverage the powerful alignment properties flexbox makes available.
 
-Take a look at the finished layout again, and you'd see that you may have the overall containing body as a flex container (represented by the red border in the image below) and have the other sections of the layout split into flex-item (item 1 and 2). 
+Take a look at the finished layout again, and you'd see that you may have the overall containing body as a flex container (represented by the red border in the image below) and have the other sections of the layout split into flex-item (item 1 and 2).
 
 ![initial-breakdown](http://i.imgur.com/u4ov0oJ.jpg)
 
@@ -183,9 +183,9 @@ The main content section is empty but don't forget it's the second list item whe
 <section class="content"> <!--This section was empty. Populating it with content-->
 
   <div class="music-head"> <!--First list item: contains music details-->
-      
+
       <img src="images/cattyboard.jpg" /> <!--Album art-->
-      
+
       <section class="catty-music"> <!--other details of the album-->
           <div>
             <p>CattyBoard Top 100 Single Charts (11.06.36)</p>
@@ -194,7 +194,7 @@ The main content section is empty but don't forget it's the second list item whe
           </div>
 
           <div> <!--Music controls-->
-            <i class="fa fa-play"> &nbsp;Play all</i> 
+            <i class="fa fa-play"> &nbsp;Play all</i>
             <i class="fa fa-plus"> &nbsp;Add to</i>
             <i class="fa fa-ellipsis-h">&nbsp;&nbsp;More</i>
           </div>
@@ -275,10 +275,10 @@ This doesn't feel very pretty yet but c'mon you're doing great if still followin
 
 I've got a few problems here:
 
-1. The list of songs looks terrible. You can fix that, can't you? 
+1. The list of songs looks terrible. You can fix that, can't you?
 2. The section containing the music art has really ugly looking texts. You should deal with that too.
 
-Again, I'd walk you through solving these problems. Here is the solution I propose for problem 1 above: 
+Again, I'd walk you through solving these problems. Here is the solution I propose for problem 1 above:
 
 Each list of songs contain 4 paragraphs: song title, artiste, duration, and "catty cloud sync". There's got to be a way to put all of this in one line with each paragraph taking up equal space along this line. Flexbox to the rescue!! The concept here is the same employed in many grid systems. Let's translate that to codes:
 

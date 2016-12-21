@@ -5,7 +5,7 @@ Here's a screenshot from caniuse, and browser support is quite impressive. You m
 ![Caniuse flexbox screnshot](http://image.prntscr.com/image/f9dda4cae48a4d48996d20379114994a.png)
 
 
-Early on in my career, I remember glancing over caniuse many times and still not understand what the data represented meant.So Here's a brief explanation: At the right bottom of the caniuse website is a legend. Take a look at the Image above, find the legend and you'd be good to go. That's actually all there is to it. 
+Early on in my career, I remember glancing over caniuse many times and still not understand what the data represented meant.So Here's a brief explanation: At the right bottom of the caniuse website is a legend. Take a look at the Image above, find the legend and you'd be good to go. That's actually all there is to it.
 
 ## Links
 [Request to recieve pdf document here]()
