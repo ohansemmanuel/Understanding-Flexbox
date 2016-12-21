@@ -10,22 +10,25 @@ Here's what the finished layout looks like, and it is completely laid out with F
 
 ![catty-board](http://i.imgur.com/EYSoc5A.png)
 
-You may view it online [here](https://www.jsbin.com/)  
+You may view it online [here](http://output.jsbin.com/wubudog/1)  
 
-I've got a confession to make though. I've done something considered wrong by many, and that is, I've completely built the overall layout with flexbox. For many reasons this may not be ideal, but it's intentional in this scenario. I intentionally want to point out a lot of "what can i do with flexbox" within one project.
+I've got a confession to make though. I've done something considered wrong by many. I've completely built the overall layout with Flexbox.  
+For many reasons this may not be ideal, but it's intentional in this scenario. I want to point out a lot of "what can I do with flexbox" within one project.
 
-If you're curious as to when it's considered right or wrong to use the flexbox model, you may check out my article, [Flexbox is awesome but it's NOT welcome here](https://medium.com/@ohansemmanuel/flexbox-is-awesome-but-its-not-welcome-here-a90601c292b6#.zbf4msgoh)
+If you're curious as to when it's considered right or wrong to use the Flexbox model, you may check out my article, [Flexbox is awesome but it's NOT welcome here](https://medium.com/@ohansemmanuel/flexbox-is-awesome-but-its-not-welcome-here-a90601c292b6#.zbf4msgoh)
 
 
 I got that off my chest! Now I'm sure no one's going to yell at me after reading this.
 
 Everything in Catty Music is laid out using the flexbox model - this is intentional to show off what's possible. So let's get this thing built!
 
-As with any reasonable project, a bit of planning goes a long way sifting through inefficiencies. I'll take you through a planned approach to building the __catty music__ layout. So where do we start?
+As with any reasonable project, a bit of planning goes a long way sifting through inefficiencies. I'll take you through a planned approach to building the __catty music__ layout.  
 
-Whenever building a layout with flexbox, you'd want to look out for what sections of your layout may stand out as flex-containers, so you may leverage the powerful alignment properties flexbox makes available.
+So where do we start?
 
-Take a look at the finished layout again, and you'd see that you may have the overall containing body as a flex container (represented by the red border in the image below) and have the other sections of the layout split into flex-item (item 1 and 2).
+Whenever building a layout with flexbox, you should start by looking out for what sections of your layout may stand out as flex-containers. You may then leverage the powerful alignment properties flexbox makes available.
+
+Take a look at the finished layout again. You may have the overall containing body as a flex container (represented by the red border in the image below) and have the other sections of the layout split into flex-items (item 1 and 2).
 
 ![initial-breakdown](http://i.imgur.com/u4ov0oJ.jpg)
 
@@ -33,18 +36,23 @@ You got that right? You'd agree that this makes total sense as item 1 contains e
 
 Did you know that a flex-item could also be made a flex-container that contains other flex-items?? Yes, yes, yes! that's possible.
 
-We may nest as deep as we want (it's only sane to keep this to a reasonable level though). So, with that new revelation comes this: Item 1 (our first flex-item) may also be made a flex container with the sidebar(item 1b) and main section(item 1a) of the layout being flex-items!
+We may nest as deep as we want (it's only sane to keep this to a reasonable level though). So, with that new revelation comes this: Item 1 (our first flex-item) may also be made a flex container. The sidebar(item 1b) and main section(item 1a) would then be flex-items!
 
 ![second-breakdown](http://i.imgur.com/i5rD6w8.jpg)
 
-You're still with me right? Breaking things down this way gives you a really good image to work with while building even more complex layouts with the flexbox model. You do not need a fancy image like the ones above, a simple rough paper sketch should be just fine to get you going.
+You're still with me, right?
+
+Decomposing your layout gives you a really good visual image to work with. When you begin building even more complex layouts with the flexbox model, you'd see how vital this is. You do not need a fancy image like the ones above, a simple rough paper sketch should be just fine to get you going.
 
 You remember I said you could nest as deep as you wanted? It appears you need to do one more nesting here. Take a look
 at the main section (item 1a). It could also be made a flex container to house the sections highlighted below.
 
 ![third-breakdown](http://i.imgur.com/5gfoJWn.jpg)
 
-You may decide not to make the main section (item 1a) a flex container and just put within it two "divs" to house the highlighted sections. Yes that's possible since by default "divs" stack vertically. It's how the box model works. However, by making the main section a flex-container, you get some responsiveness off the bat - no extra styling! The "Flex" in Flexbox means flexible, remember?  Flex-containers are by default flexible, kind off responsive, which is why I'm choosing to do it this way.
+You may decide not to make the main section (item 1a) a flex container and just put within it two "divs" to house the highlighted sections. Yes that's possible. By default, "divs" stack vertically. It's how the box model works.
+
+If you choose to make the main section a flex-container, you get the powerful alignment properties at your disposal. The "Flex" in Flexbox means flexible. Remember?  Flex-containers are by default flexible, kind off responsive. This may be another reason to use a flex-container over regular "divs". This depends on the case scenario though.
+
 I'll touch up on some other things as you build catty music. For now let's get to writing some code!
 
 We'll start off with the basic html set up below:
@@ -76,17 +84,19 @@ So let's style this ...
 
   body {
     display: flex; /*flex superpowers activated! */
-    flex-direction: column; /*Stack the flex-items vertically not the default horizontal view*/
+    flex-direction: column; /*Stack the flex-items (main and footer elements) vertically NOT horizontally*/
   }
 
 ```
 
-Usually, the first step to using the flexbox model is establishing a flex container and that's just what you did by setting the body element's display propery to ```flex```
-Here we have a flex container, the body element, and our flex items are defined as in the breakdown earlier done (item 1 and item 2)
+The first step to using the flexbox model is establishing a flex container. This is exactly what the code above doesby setting the body element's display property to ```flex```
+
+Now we have a flex container, the body element. The flex items are defined too (item 1 and item 2) - as in the breakdown earlier done.
 NB: You may take a look at the images shown in initial breakdown I discussed earlier if things look fuzzy now.
 
 
-Keeping the image of the end in view, let's get our flex-items working. The footer which houses the music controls is to stick to the bottom of the page while the main section fills up the remaining space. How do you do that?
+Keeping the image of the end in view, let's get our flex-items working. The footer which houses the music controls is to stick to the bottom of the page while the main section fills up the remaining space.
+How do you do that?
 
 ```css
   main {
@@ -98,7 +108,13 @@ Keeping the image of the end in view, let's get our flex-items working. The foot
   }
 ```
 
-Thanks to the ```flex-grow``` property, you can easily have the main section fill the entire space by setting it's value to 1. You should also set the ```flex-shrink``` property to zero. The reason may not be evident here but there's a bug on some browsers that allows flex-items shrink below the size of their flex-container and a workaround to this bug is to keep the shrink value at zero while setting the ```flex-basis``` property to ```auto```. Don't forget  the framework for which I broke down the flex shorthand property. There's going to be a lot of shorthand stuffs coming on!
+Thanks to the ```flex-grow``` property. It's relatively easy to have the main section fill the entire space. Just set the ```flex-grow``` value to 1. You should also set the ```flex-shrink``` property to zero. Why?
+
+The reason may not be evident here because the flex-direction is changed. In some browsers, there's a bug that allows flex-items shrink below their content size. It's quite a weird behavior. The workaround to this bug is to keep the ```flex-shrink``` value at ```0``` NOT the default, ```1``` and also set the ```flex-basis``` property to ```auto```.
+
+It's like saying: _"Please take on an initial width based on your content size, but never shrink."_ This will cause the flex-item to be at least as big as its width or height (if declared) or its default content size.
+
+Please don't forget the framework for which I broke down the ````flex-shorthand``` property. There's going to be a lot of shorthand stuffs coming on!
 
 Now that you have things coming together, let's put in a bit of styling to define spacing, colors, etc.
 
@@ -120,11 +136,11 @@ Now that you have things coming together, let's put in a bit of styling to defin
   }
 
 ```
-and here's what we've got now:
+Nothing magical yet. Here's what we've got now:
 
 **flex-initial-1**
 
-Seeing how things are beginning to take shape, you'll make it even better. Fix the sidebar. If you're coding along then update your html document
+Seeing how things are beginning to take shape, you'll make it even better. Fix the sidebar. If you're coding along, update your html document
 
 ```html
 <main>
@@ -145,7 +161,9 @@ Seeing how things are beginning to take shape, you'll make it even better. Fix t
 </main>
 ```
 
-The listing above is quite explanatory. As explained earlier, the "main" section above will also be made a flex container! So the sidebar (represented by the aside tag), and the section will both be flex itms. Just as you made the footer stick to the bottom of the page, you also want the sidebar to stick - this time to the left. It's better explained in codes I guess
+The listing above is quite explanatory. As explained earlier, the "main" section above will also be made a flex container! So the sidebar (represented by the aside tag), and the section will both be flex-items. ]
+
+Just as you made the footer stick to the bottom of the page, you also want the sidebar to stick - this time to the left. It's better explained in codes I guess.
 
 ```css
   main {
@@ -154,15 +172,17 @@ The listing above is quite explanatory. As explained earlier, the "main" section
   }
 ```
 
-Alright, this is geting interesting, huh? Now you have the main section as a flex container. Let's deal with one of its flex ites, the sidebar. There's something cool happening here. The sidebar has icons stacked vertiacally. So we can make this a flex-contianer with a flex-direction that let's all icons stack vertically and in position! Let's see how you may do this:
+Alright, this is getting interesting, huh? Now you have the main section as a flex container. Let's deal with one of its flex items, the sidebar.
+
+There's something cool happening here. The sidebar has icons stacked vertically. You can make this a flex-container and give it a flex-direction that let's all icons stack vertically and in position! Let's see how you may do this:
 
 
 ```css
   aside {
   	flex: 0 0 40px; /*as a flex item: do not grow or shrink. Just stay fixed at 40px*/
   	display: flex; /*Now you're a flex-container, you can decide how your flex-items are laid*/
-  	flex-direction: column; /*Stack my flex-item s vertically...change the default direction*/
-  	justify-content: space-around; /*Interesting...since direction is changed, this works on the vertical direcion*/
+  	flex-direction: column; /*Stack my flex-item's vertically...change the default direction*/
+  	justify-content: space-around; /*Interesting...since direction is changed, this works on the vertical direction*/
   	align-items: center; /*direction is changed! This affects the horizontal direction*/
   	background-color: #f2f2f2; /*make me pretty*/
   }
@@ -177,7 +197,9 @@ I have obsessively commented through the code above and now see how pretty every
 
 **flex-initial 2**
 
-The main content section is empty but don't forget it's the second list item where the sidebar is first. Let's put in some stuff there. What do you think?  You may take a look at the finished project again, so you don't lose sight of where we're headed. More importantly, it'd help you understand the next code listing
+The main content section is empty but don't forget it's the second list-item. The sidebar is first.
+
+Let's put in some stuff there. What do you think?  You may take a look at the finished project again, so you don't lose sight of where we're headed. More importantly, it'd help you understand the next code listing.
 
 ```html
 <section class="content"> <!--This section was empty. Populating it with content-->
@@ -234,7 +256,10 @@ The main content section is empty but don't forget it's the second list item whe
 </section>    
 ```
 
-Uhmm, I added a bit more than the last time but its pretty simple: I populated the empty content section with a ```div``` that holds the album art and some details of the catty album. What about the unordered list? The ```ul``` holds a list of songs from the amazing album! The song title, artiste, time and "catty cloud sync" are contained in individual paragraphs within the list.
+Uhmm, I added a bit more than the last time but its pretty simple.
+
+I populated the empty content section with a ```div``` that holds the album art and some details of the catty album. What about the unordered list?  
+The ```ul``` holds a list of songs from the amazing album! The song title, artiste, time and "catty cloud sync" are contained in individual paragraphs within the list.
 
 So what are you going to do with styling? See what I did. Can you figure it out?
 
@@ -265,7 +290,8 @@ So let's deal with it's flex-items:
 
 ```
 
-```.music-head``` holds the album art and other related album details. Same memo, do not grow or shrink but keep a height of 280px. Height NOT width? YEs! The parent element already had the  ```flex-direction``` switched. Oh, and because I can see into the future, you're going to need this to be a flex-container later on too, so I put in ```display: flex```
+```.music-head``` holds the album art and other related album details. Same memo, do not grow or shrink but keep a height of 280px. Height NOT width? Yes!  
+The parent element already had the  ```flex-direction``` switched. Oh, and because I can see into the future, you're going to need this to be a flex-container later on too, so I put in ```display: flex```
 ```.music-list``` holds the list of songs and it feels up the remaining available space shared with ```.music-head``` above.
 
 
@@ -280,24 +306,27 @@ I've got a few problems here:
 
 Again, I'd walk you through solving these problems. Here is the solution I propose for problem 1 above:
 
-Each list of songs contain 4 paragraphs: song title, artiste, duration, and "catty cloud sync". There's got to be a way to put all of this in one line with each paragraph taking up equal space along this line. Flexbox to the rescue!! The concept here is the same employed in many grid systems. Let's translate that to codes:
+Each list of songs contain 4 paragraphs: song title, artiste, duration, and "catty cloud sync". There's got to be a way to put all of this in one line with each paragraph taking up equal space along this line.
+
+Flexbox to the rescue!! The concept here is the same employed in many grid systems. Let's translate that to codes:
 
 
 ```css
 li {
-  display: flex; <!--Target each list containing the paragraphs-->
+  display: flex; /*Targets each list containing the paragraphs*/
   padding: 0 20px;
   min-height: 50px;
 }
 
 li p {
-  flex: 0 0 25%; <!--This is the sweet sauce-->
+  flex: 0 0 25%; */This is the sweet sauce*/
 }
 
 ```
 
-You see what's happening there with the paragraphs? "Don't grow or shrink but each paragraph should take up 25% of the available space"
-Let's style a bi more by giving the lists alternate colors and deal with the "caty cloud sync" label
+You see what's happening there with the paragraphs?  "Don't grow or shrink but each paragraph should take up 25% of the available space".
+
+Let's style a bit more by giving the lists alternating colors and deal with the "catty cloud sync" label too.
 
 ```css
 li span.catty-cloud {
@@ -354,8 +383,16 @@ and you did it!
 
 **flexbox-initiial-5**
 
-Try fixing the footer. Just employ the same techniques. You can do this you know? If you get stuck, you can always check out the full source code for catty music here.
+Try fixing the footer. Just employ the same techniques. You can do this you know? If you get stuck, you can always check out the full source code for catty music.
 
 Here's  a quick tip for dealing with the footer. You may break the entire footer into flex-items too, and get going from there.
 
 ![footer breakdown](http://i.imgur.com/GaFdZJN.jpg)
+
+
+Wow. I can't believe you got to this point. That's great! You're becoming a Flexbox ninja now. Next, we will see hoe Flexbox helps with responsive designs.
+
+_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+
+**Next Read: [RESPONSIVE DESIGN WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/07.%20Flexbox%20solved%20that/readme.md)**

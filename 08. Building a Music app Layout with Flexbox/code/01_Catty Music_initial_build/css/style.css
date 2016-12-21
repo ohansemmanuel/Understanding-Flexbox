@@ -1,3 +1,11 @@
+/*
+=======================================================
+There's a lot of css3 selectors stuff in here. I explain the
+tricky ones but feel free to look up anything I've missed.
+=======================================================
+*/
+
+
 * {
 	box-sizing: border-box;
 }
@@ -72,6 +80,7 @@ li span.catty-cloud {
   padding: 3px;
 }
 
+/* target every even numbered list item. 0, 2, 4...*/
 li:nth-child(2n) {
   background-color: #f2f2f2;
 }
@@ -105,6 +114,7 @@ li:nth-child(2n) {
   margin: 0 0 10px;
 }
 
+/* Within the first div child of .catty-musi, this targets all paragraphs except the first */
 .catty-music div:nth-child(1) p:not(:first-child){
   font-size: 0.9em;
   margin: 2px 0;
