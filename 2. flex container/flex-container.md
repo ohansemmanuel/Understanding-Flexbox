@@ -208,6 +208,7 @@ Don't worry if these seem like too much to get a hold of. With a bit of practice
 
 ### 5. Align-items
 The ```align-items``` property is somewhat similar to the ```justify-content``` property. Having understood the ```justify-content``` property, this should be easier to take in.
+
 ```Align-items``` can be set to any of these values: flex-start || flex-end || center || stretch || baseline
 
 ```css
@@ -220,17 +221,17 @@ It defines how flex-items are laid out on the **cross axis**. This is the differ
 
 **The default value is ```stretch```, and this will 'stretch' the flex-items so they fill the entire height of the flex container.**
 
-![stretch](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_13_zps1nwnarjp.png)  
+![stretch](http://i.imgur.com/z6hibEr.png)  
 
 **The ```flex-start``` and ```flex-end``` properties do what you expect - group the items to the start or end of the cross-axis.**
 
-![flex-start](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_14_zpsjq3fqh9g.png)
+![flex-start](http://i.imgur.com/7IWXXP3.png)
 
-**![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_15_zpstwulkeyt.png)**
+![flex-end](http://i.imgur.com/F0zDNT1.png)
 
 **The ```center``` value is equally predictable. It aligns items to the center of the flex-container.**
 
-![center](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_16_zpsa0ougr7u.png)
+![center](http://i.imgur.com/qSPeH9E.png)
 
 **And the baseline value? It aligns flex-items along their baselines.**
 
