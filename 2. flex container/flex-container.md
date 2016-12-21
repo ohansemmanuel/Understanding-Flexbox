@@ -218,27 +218,29 @@ ul {
 ```
 It defines how flex-items are laid out on the **cross axis**. This is the difference between the ```align-items``` property and ```justify-content```.
 
-The default value is ```stretch```, and this will 'stretch' the flex-items so they fill the entire height of the flex container.
+**The default value is ```stretch```, and this will 'stretch' the flex-items so they fill the entire height of the flex container.**
 
 ![stretch](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_13_zps1nwnarjp.png)  
 
-The ```flex-start``` and ```flex-end``` properties do what you expect - group the items to the start or end of the cross-axis.
+**The ```flex-start``` and ```flex-end``` properties do what you expect - group the items to the start or end of the cross-axis.**
+
 ![flex-start](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_14_zpsjq3fqh9g.png)
 
-![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_15_zpstwulkeyt.png)
+**![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_15_zpstwulkeyt.png)**
 
-The center value is equally predictable. It aligns items to the center of the flex-container.
+**The ```center``` value is equally predictable. It aligns items to the center of the flex-container.**
 
 ![center](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_16_zpsa0ougr7u.png)
 
-And the baseline value? It aligns flex-items along their baselines.
+**And the baseline value? It aligns flex-items along their baselines.**
+
 ![baseline](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_17_zpsovbaj6w0.png)
 
 "Baseline" really sounds fancy. It appears to look just like ````flex-start``` but it is subtly different. What the heck is "baseline"? This should help:
 
 ![Understanding-Flexbox: Baseline](http://i.imgur.com/7vwt8Pb.jpg)  
 
-Isn't it awesome the amount of control you have here?
+Isn't it awesome the amount of layout control you have here?
 
 
 ### 6. Align-content
@@ -248,19 +250,24 @@ It takes the same values as ```align-items``` apart from ````baseline```. By def
 
 These are values you're familiar with. So, here's how they affect a multi-line flex-container.
 
-i. Stretch
+**Stretch**
+
 ![stretch](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_18_zpsy8iaetza.png)
 
-ii. Flex-start
+**Flex-start**
+
 ![flex-start](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_19_zpsdumnrbis.png)
 
-iii. Flex-end
+**Flex-end**
+
 ![flex-end](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_20_zpsvtll0vn0.png)
 
-iv. Center
+**Center**
+
 ![center](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_21_zpsy0u5amdd.png)
 
-...and that concludes this. You now understand how to use the various flex-container properties. Pretty soon, you'll need these to work through the practical sections coming up. I guess you're feeling much more confident now, Right?  
+...and that concludes this. You now understand how to use the various flex-container properties. Pretty soon, you'll need these to work through the practical sections coming up. I guess you're feeling much more confident now, right?  
+
 More fun stuffs lie ahead!
 
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
