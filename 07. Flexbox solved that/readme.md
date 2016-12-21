@@ -14,4 +14,4 @@ If you're the guy that writes CSS in their dreams and even if you're not, [you s
 I'll be working you through some prominent bugs in the practical section below too. So you're covered.
 
 
-**Next Read: [BUILDING A MUSIC APP LAYOUT WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/8.%20Building%20a%20Practical%20Layout%20with%20Flexbox/readme.md)**
+**Next Read: [BUILDING A MUSIC APP LAYOUT WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/08.%20Building%20a%20Practical%20Layout%20with%20Flexbox/readme.md)**

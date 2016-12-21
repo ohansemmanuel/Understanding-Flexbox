@@ -81,4 +81,4 @@ Here's a recap. Absolute flex-items have their widths based solely on flex, whil
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
-**Next Read: [AUTO-MARGIN ALIGNMENT](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/5.%20Auto%20margin%20alignment/auto_margin.md)**
+**Next Read: [AUTO-MARGIN ALIGNMENT](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/05.%20Auto%20margin%20alignment/auto_margin.md)**

@@ -2,13 +2,13 @@
 
 ![Understanding flexbox - intro image](http://i.imgur.com/CqAGAC5.jpg)
 
-Learning Flexbox can be a pain in the butt. For most persons, it's not particularly fun at first. It challenges you to rethink how you've dealt with layouts in css. 
+Learning Flexbox can be a pain in the butt. For most persons, it's not particularly fun at first. It challenges you to rethink how you've dealt with layouts in css.
 
 Don't fret. I really would walk you through all you need to know. So, let's get started.
 
 
 ## Why Use Flexbox?
-A lot of changes have been made to the CSS language in the past few years. The introduction of filters, transitions, and transforms to the css language were cool. We all loved them, but something else was missing. Something we all craved for. 
+A lot of changes have been made to the CSS language in the past few years. The introduction of filters, transitions, and transforms to the css language were cool. We all loved them, but something else was missing. Something we all craved for.
 
 Crafting Intelligent page layouts with CSS seemed to have persisted for too long, and this got many of us writing _hackish css_. We always had to deal with floats, table display hacks and faced the consequences they brought. If you've written CSS for sometime, you can relate with this, and if not, welcome to a better world!
 
@@ -18,7 +18,7 @@ It seems like our agonies as designers and front-end developers have finally bee
 According to the specification, the flexbox model provides for an efficient way to layout, align, and distribute space among elements within your document, even when the viewport and the size of your elements is unknown and/or dynamic.  
 If that sound too formal, I understand the feeling. In just a bit, I'll explain what that means in "English".
 
-Whether you write css in your dreams or you're just getting started, you'll feel right at home. Since I've got a lot to show to you, go grab a cup of your favorite drink as I take you through a pretty long journey. 
+Whether you write css in your dreams or you're just getting started, you'll feel right at home. Since I've got a lot to show to you, go grab a cup of your favorite drink as I take you through a pretty long journey.
 
 
 ## How do I start using the flexbox model?
@@ -50,7 +50,7 @@ ul {
 }
 ```
 
-I'm going to style the list items just a bit, so you may see what's going on here. 
+I'm going to style the list items just a bit, so you may see what's going on here.
 
 ```css
 li {
@@ -61,13 +61,13 @@ li {
 }
 
 ```
-And here is what we have: 
+And here is what we have:
 
 
 ![Flexbox kicks in](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_3_zpsytzach4m.png)
 
 
-You may not have noticed, but something's happened already! 
+You may not have noticed, but something's happened already!
 
 By default, "divs" in CSS stack vertically, from top to bottom.
 
@@ -103,4 +103,4 @@ So, here is where I wrap up the Introduction to the Flexbox model.
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
-**Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)**
+**Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02. flex container/flex-container.md)**

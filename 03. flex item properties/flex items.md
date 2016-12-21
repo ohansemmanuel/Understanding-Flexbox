@@ -1,12 +1,12 @@
 ## The Flex Item Properties
 ``` Order || Flex-grow || Flex-shrink || Flex-basis```
 
-![Understanding flexbox - flex-item](http://i.imgur.com/7klPbEY.jpg) 
+![Understanding flexbox - flex-item](http://i.imgur.com/7klPbEY.jpg)
 
 In the previous article, we looked at flex containers and their alignment properties. Beautiful indeed. Sure you're getting a feel of what lies ahead now.
 I'd take my focus off flex-containers now, and walk you through flex-items and their alignment properties.
 
-Like flex-containers, a couple alignment properties are also made available on all flex-items. These are properties you can use on any children of a flex-container. 
+Like flex-containers, a couple alignment properties are also made available on all flex-items. These are properties you can use on any children of a flex-container.
 Let me walk you through them.
 
 ### 1. Order
@@ -53,7 +53,7 @@ All you need to do is make the ```order``` value of flex item number 1 higher th
 
 /*select first li element within the ul */
 	li:nth-child(1) {
-		order: 1; /*give it a value higher than 0. Remember it's ```order:0``` for other flex-items by default*/ 
+		order: 1; /*give it a value higher than 0. Remember it's ```order:0``` for other flex-items by default*/
 	}
 
 ```
@@ -88,13 +88,13 @@ In the example below, flex-item 1 and 3 are given the same ```order values```.
 
 
 The items are still arranged from lowest to highest, but this time, flex-item 3 appears last because it comes after flex-item 1 in the source file (html document).
-  
+
 NB: The re-ordering is based on  the positions in the source file, when two or more flex items have the same order value.
 
 That was a lot of explanation. Let's move on to some other properties.
 
 ### 2. Flex grow and flex shrink
-The beauty of flex items is being "flexible". The ```flex-grow``` and ```flex-shrink``` properties allow us play around this 'flexibility' even more. 
+The beauty of flex items is being "flexible". The ```flex-grow``` and ```flex-shrink``` properties allow us play around this 'flexibility' even more.
 
 The ```flex-grow``` and ```flex-shrink``` properties control how much a flex-item should "grow" (extend) if there are extra spaces, or "shrink" if there are no "extra" spaces. They may take up any values ranging from 0 to any positive number. ```0 || positive numbers```
 
@@ -210,7 +210,7 @@ li {
 ```
 I know what you're thinking. What's  the purpose of the relative and absolute flex?  I answer that question later in this article.
 
-For now, let's take a look at some useful flex shorthand values. 
+For now, let's take a look at some useful flex shorthand values.
 
 ### 1. ```flex: 0 1 auto```
 ```css
@@ -298,7 +298,7 @@ li:nth-child(2){
 	background-color: #8cacea;
 }
 ```
-Remember that setting ```flex-grow : 1``` lets the flex-item fill up the available space. Here you have two flex-items. One has a  ```flex-grow``` property of ```1``` and the other ```2```,  what then happens? 
+Remember that setting ```flex-grow : 1``` lets the flex-item fill up the available space. Here you have two flex-items. One has a  ```flex-grow``` property of ```1``` and the other ```2```,  what then happens?
 They both expand to fill up the available space, but in some proportion. Here's how it works.
 
 The latter takes up 2/3 of the available space while the former takes 1/3. You know how I arrived at that? Basic mathematics ratio. ```individual ratio / total ratio```
@@ -361,4 +361,4 @@ You're pretty much getting ready for the fun part now :-)
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
-**Next Read: [ABSOLUTE AND RELATIVE FLEX-ITEMS](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/4.%20Absolute%20and%20Relative%20flex%20items)**
+**Next Read: [ABSOLUTE AND RELATIVE FLEX-ITEMS](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/04.%20Absolute%20and%20Relative%20flex%20items)**

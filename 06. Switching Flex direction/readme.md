@@ -117,4 +117,4 @@ I'm sure you learnt something new again. I'm having fun explaining this. I hope 
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
-**Next Read: [FLEXBOX SOLVED THAT](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/7.%20Flexbox%20solved%20that/readme.md)**
+**Next Read: [FLEXBOX SOLVED THAT](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/07.%20Flexbox%20solved%20that/readme.md)**

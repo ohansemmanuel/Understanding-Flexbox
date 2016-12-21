@@ -54,4 +54,4 @@ I wouldn't start off with just building stuffs. There's going to be some boring 
 
 _If for any reasons you'd prefer to read the entire tutorial as a single pdf document, one you can have access to anytime and on any device, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
-#### Next Read: [INTRODUCTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/1. Intro/intro.md)
+#### Next Read: [INTRODUCTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/01. Intro/intro.md)
