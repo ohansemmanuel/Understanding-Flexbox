@@ -5,16 +5,16 @@
 ![Understanding Flexbox](http://i.imgur.com/GzOC1nh.png)
 
 ## Table of Contents
-1. [Introduction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/1. Intro/intro.md)
-2. [The Flex-container Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/2. flex container/flex-container.md)
-3. [The Flex-item Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/3. flex item properties/flex items.md)
-4. [Absolute and Relative Flex](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/4. Absolute and Relative flex items)
-5. [Auto-Margin Alignment](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/5.%20Auto%20margin%20alignment/auto_margin.md)
-6. [Switching Flex Direction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/6. Switching Flex direction/readme.md)
-7. [Flexbox Solved That](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/7.%20Flexbox%20solved%20that/readme.md)
-8. [Building a Music App Layout with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/8.%20Building%20a%20Practical%20Layout%20with%20Flexbox/readme.md)
-9. [Responsive design with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/9. Responsive layout with Flexbox/readme.md)
-10. [Final Topics](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/9. Responsive layout with Flexbox/readme.md)
+01. [Introduction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/01. Intro/intro.md)
+02. [The Flex-container Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02. flex container/flex-container.md)
+03. [The Flex-item Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/03. flex item properties/flex items.md)
+04. [Absolute and Relative Flex](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/04. Absolute and Relative flex items)
+05. [Auto-Margin Alignment](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/05.%20Auto%20margin%20alignment/auto_margin.md)
+06. [Switching Flex Direction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/06. Switching Flex direction/readme.md)
+07. [Flexbox Solved That](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/07.%20Flexbox%20solved%20that/readme.md)
+08. [Building a Music App Layout with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/08.%20Building%20a%20Practical%20Layout%20with%20Flexbox/readme.md)
+09. [Responsive design with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09. Responsive layout with Flexbox/readme.md)
+10. [Final Topics](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/10.%20Conclusion/readme.md)
 
 
 The title, _"Understanding Flexbox: Everything you need to know,"_ may seem messed up. No one can fit everything there is to a subject within one article, and even if such person existed, it isn't me.

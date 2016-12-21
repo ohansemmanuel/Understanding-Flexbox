@@ -19,7 +19,7 @@ The handy unordered list comes to the rescue again:
   </ul>
 ```
 
-and with a bit of styling: 
+and with a bit of styling:
 
 ```css
   ul {
@@ -35,7 +35,7 @@ and with a bit of styling:
 		background-color: #8cacea;
 		color: #fff;
 		font-size: 1em;
-	} 
+	}
 ```
 You're a pro at this flex stuff now so you understand what's going on up there. Here's how our navigation bar looks.
 
@@ -55,3 +55,5 @@ While this is cool for desktops and tablets, at certain screen sizes it particul
 ```
 **simple-responsive-2**
 You do not need to forget all you've learnt about responsive designs, just transpose the flexbox model unto your existing knowledge and you're good to go.
+
+https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/10.%20Conclusion/readme.md
