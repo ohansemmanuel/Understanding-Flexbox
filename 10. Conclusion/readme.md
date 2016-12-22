@@ -30,4 +30,4 @@ I hope you find these helpful.
 3. [Flexbox Froggy: A Cool Flexbox Game](http://flexboxfroggy.com/)  
 
 
-_ I am writing what I think is one of the most important books on the subject of modern layouts in CSS. It's centered around using the Flexbox and Grid models. ![Take a look!](https://ohansemmanuel.github.io/modern_css_layouts.html) I'm pretty sure you'll thank me later :-) _
+_I am writing what I think is one of the most important books on the subject of modern layouts in CSS. It's centered around using the Flexbox and Grid models. [Take a look!](https://ohansemmanuel.github.io/modern_css_layouts.html) I'm pretty sure you'll thank me later :-)_
