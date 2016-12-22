@@ -14,7 +14,7 @@
 07. [Flexbox Solved That](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/07.%20Flexbox%20solved%20that/readme.md)
 08. [Building a Music App Layout with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/08.%20Building%20a%20Practical%20Layout%20with%20Flexbox/readme.md)
 09. [Responsive design with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09. Responsive layout with Flexbox/readme.md)
-10. [Final Topics](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/10.%20Conclusion/readme.md)
+10. [Conclusion](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/10.%20Conclusion/readme.md)
 
 
 The title, _"Understanding Flexbox: Everything you need to know,"_ may seem messed up. No one can fit everything there is to a subject within one article, and even if such person existed, it isn't me.
