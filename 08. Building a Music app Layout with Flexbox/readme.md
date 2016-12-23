@@ -306,7 +306,7 @@ I've got a few problems here:
 
 1. The list of songs looks terrible.
 
-![list of songs](http://image.prntscr.com/image/2ff7241bd60545caa5ee0b8c3389374c.png
+![list of songs](http://image.prntscr.com/image/2ff7241bd60545caa5ee0b8c3389374c.png)
 
 2. The section containing the music art has really ugly looking texts. You're going to deal with that too.
 
@@ -351,7 +351,7 @@ li:nth-child(2n) {
 ```
 So, you're killing it, and really getting to understand the flex lingo better! This is what you should have now.
 
-![catty music- almost done(http://image.prntscr.com/image/a6d6bd4800d641bb8679900d02a8f105.png)
+![catty music- almost done](http://image.prntscr.com/image/a6d6bd4800d641bb8679900d02a8f105.png)
 
 The second problem will be dealt with now. Making the album details text look prettier. Really simple stuff going on here:
 
@@ -406,4 +406,4 @@ Wow. I can't believe you got to this point. That's great! You're becoming a Flex
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
 
-**Next Read: [RESPONSIVE DESIGN WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/07.%20Flexbox%20solved%20that/readme.md)**
+**Next Read: [RESPONSIVE DESIGN WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09. Responsive design with Flexbox/readme.md)**
