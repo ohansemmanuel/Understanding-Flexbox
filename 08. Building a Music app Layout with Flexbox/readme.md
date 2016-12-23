@@ -1,4 +1,4 @@
-## Building a Practical Layout with Flexbox
+## Building a Music App Layout with Flexbox
 
 ![Understanding Flexbox - building a music app](http://i.imgur.com/WTTAWO5.jpg)
 
@@ -53,7 +53,7 @@ You may decide not to make the main section (item 1a) a flex container and just 
 
 If you choose to make the main section a flex-container, you get the powerful alignment properties at your disposal. The "Flex" in Flexbox means flexible. Remember?  Flex-containers are by default flexible, kind off responsive. This may be another reason to use a flex-container over regular "divs". This depends on the case scenario though.
 
-I'll touch up on some other things as you build catty music. For now let's get to writing some code!
+I'll touch up on some other things as you build catty music. You should get to writing some code now!
 
 We'll start off with the basic html set up below:
 ```html
@@ -74,7 +74,7 @@ We'll start off with the basic html set up below:
 </html>
 ```
 
-So let's style this ...
+So style this ...
 
 ```css
   html,
@@ -89,13 +89,13 @@ So let's style this ...
 
 ```
 
-The first step to using the flexbox model is establishing a flex container. This is exactly what the code above doesby setting the body element's display property to ```flex```
+The first step to using the flexbox model is establishing a flex container. This is exactly what the code above does. It sets the body element's display property to ```flex```
 
 Now we have a flex container, the body element. The flex items are defined too (item 1 and item 2) - as in the breakdown earlier done.
 NB: You may take a look at the images shown in initial breakdown I discussed earlier if things look fuzzy now.
 
 
-Keeping the image of the end in view, let's get our flex-items working. The footer which houses the music controls is to stick to the bottom of the page while the main section fills up the remaining space.
+Keeping the image of the end in view, you should get the flex-items working. The footer which houses the music controls is to stick to the bottom of the page while the main section fills up the remaining space.
 How do you do that?
 
 ```css
@@ -116,7 +116,7 @@ It's like saying: _"Please take on an initial width based on your content size, 
 
 Please don't forget the framework for which I broke down the ````flex-shorthand``` property. There's going to be a lot of shorthand stuffs coming on!
 
-Now that you have things coming together, let's put in a bit of styling to define spacing, colors, etc.
+Now that you have things coming together, put in a bit of styling to define spacing, colors, etc.
 
 ```css
   body {
@@ -138,7 +138,8 @@ Now that you have things coming together, let's put in a bit of styling to defin
 ```
 Nothing magical yet. Here's what we've got now:
 
-**flex-initial-1**
+![initial-look-1](http://image.prntscr.com/image/7f648e515a0f4558ace5717726da4822.png)
+
 
 Seeing how things are beginning to take shape, you'll make it even better. Fix the sidebar. If you're coding along, update your html document
 
@@ -172,9 +173,9 @@ Just as you made the footer stick to the bottom of the page, you also want the s
   }
 ```
 
-Alright, this is getting interesting, huh? Now you have the main section as a flex container. Let's deal with one of its flex items, the sidebar.
+Alright, this is getting interesting, huh? Now you have the main section as a flex container. Deal with one of its flex items, the sidebar.
 
-There's something cool happening here. The sidebar has icons stacked vertically. You can make this a flex-container and give it a flex-direction that let's all icons stack vertically and in position! Let's see how you may do this:
+There's something cool happening here. The sidebar has icons stacked vertically. You can make this a flex-container and give it a flex-direction that lets all icons stack vertically and in position! See how you may do this:
 
 
 ```css
@@ -195,11 +196,12 @@ There's something cool happening here. The sidebar has icons stacked vertically.
 
 I have obsessively commented through the code above and now see how pretty everything is laid out ...super neat with few lines of codes. Reasonable codes, no messy hacks.
 
-**flex-initial 2**
+![second-layout](http://image.prntscr.com/image/e0e6da44a5d348dfba045fd3c39d6ab2.png)
+
 
 The main content section is empty but don't forget it's the second list-item. The sidebar is first.
 
-Let's put in some stuff there. What do you think?  You may take a look at the finished project again, so you don't lose sight of where we're headed. More importantly, it'd help you understand the next code listing.
+Put in some stuff there. What do you think?  You may take a look at the finished project again, so you don't lose sight of where we're headed. More importantly, it'd help you understand the next code listing.
 
 ```html
 <section class="content"> <!--This section was empty. Populating it with content-->
@@ -263,16 +265,17 @@ The ```ul``` holds a list of songs from the amazing album! The song title, artis
 
 So what are you going to do with styling? See what I did. Can you figure it out?
 
-First off, I make the main content section a flex container...
+First off, you should make the main content section a flex container...
 
 ```css
 .content {
     display: flex;
+    flex: 1 0 auto; /*this makes sure the section grows o fill the entire available space*/
     flex-direction: column;
 }
 ```
 
-So let's deal with it's flex-items:
+You should also deal with it's flex-items:
 
 ```css
 .music-head {
@@ -297,18 +300,23 @@ The parent element already had the  ```flex-direction``` switched. Oh, and becau
 
 This doesn't feel very pretty yet but c'mon you're doing great if still following. Thumbs up.
 
-**flexbox-initial-3**
+![third-look](http://image.prntscr.com/image/3ee82d09e644445a9439528eb8e29628.png)
 
 I've got a few problems here:
 
-1. The list of songs looks terrible. You can fix that, can't you?
-2. The section containing the music art has really ugly looking texts. You should deal with that too.
+1. The list of songs looks terrible.
 
-Again, I'd walk you through solving these problems. Here is the solution I propose for problem 1 above:
+![list of songs](http://image.prntscr.com/image/2ff7241bd60545caa5ee0b8c3389374c.png
 
-Each list of songs contain 4 paragraphs: song title, artiste, duration, and "catty cloud sync". There's got to be a way to put all of this in one line with each paragraph taking up equal space along this line.
+2. The section containing the music art has really ugly looking texts. You're going to deal with that too.
 
-Flexbox to the rescue!! The concept here is the same employed in many grid systems. Let's translate that to codes:
+![ugly texts](http://image.prntscr.com/image/04ec8c1e799a480bbcc708b019bda1fe.png)
+
+Again, I'd walk you through solving these problems. Here are the solution I propose.
+
+1. Each list of songs contain 4 paragraphs: song title, artiste, duration, and "catty cloud sync". There's got to be a way to put all of this in one line with each paragraph taking up equal space along this line.
+
+Flexbox to the rescue!! The concept here is the same employed in many grid systems. Translate that to codes:
 
 
 ```css
@@ -319,14 +327,16 @@ li {
 }
 
 li p {
-  flex: 0 0 25%; */This is the sweet sauce*/
+  flex: 0 0 25%; /*This is the sweet sauce*/
 }
 
 ```
 
 You see what's happening there with the paragraphs?  "Don't grow or shrink but each paragraph should take up 25% of the available space".
 
-Let's style a bit more by giving the lists alternating colors and deal with the "catty cloud sync" label too.
+![lists initial look](http://image.prntscr.com/image/d1051d406a5d42fab2388a90303c4b6f.png)
+
+Style a bit more by giving the lists alternating colors and deal with the "catty cloud sync" label too.
 
 ```css
 li span.catty-cloud {
@@ -339,9 +349,9 @@ li:nth-child(2n) {
   background-color: #f2f2f2;
 }
 ```
-So, you're killing it, and really getting to understand the flex lingo better!
+So, you're killing it, and really getting to understand the flex lingo better! This is what you should have now.
 
-**flexbox-initial - 4**
+![catty music- almost done(http://image.prntscr.com/image/a6d6bd4800d641bb8679900d02a8f105.png)
 
 The second problem will be dealt with now. Making the album details text look prettier. Really simple stuff going on here:
 
@@ -381,16 +391,17 @@ The second problem will be dealt with now. Making the album details text look pr
 
 and you did it!
 
-**flexbox-initiial-5**
+![pretty music art text](http://image.prntscr.com/image/5a55fe62f9894ab79b30b0cf9d186685.png)
 
-Try fixing the footer. Just employ the same techniques. You can do this you know? If you get stuck, you can always check out the full source code for catty music.
+### Quick Exercise
+Try fixing the footer yourself. Just employ the same techniques. You can do this you know? If you get stuck, you can always check out the full source code for catty music.
 
 Here's  a quick tip for dealing with the footer. You may break the entire footer into flex-items too, and get going from there.
 
 ![footer breakdown](http://i.imgur.com/GaFdZJN.jpg)
 
 
-Wow. I can't believe you got to this point. That's great! You're becoming a Flexbox ninja now. Next, we will see hoe Flexbox helps with responsive designs.
+Wow. I can't believe you got to this point. That's great! You're becoming a Flexbox ninja now. Next, we will see how Flexbox helps with responsive designs.
 
 _like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
 If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
