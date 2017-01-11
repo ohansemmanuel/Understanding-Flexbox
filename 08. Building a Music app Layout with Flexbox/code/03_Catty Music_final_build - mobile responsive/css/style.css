@@ -139,7 +139,7 @@ Mobile responsiveness
 =========================================================
 */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 64em) {
 
 	.sm-hide {
 		display:none;
