@@ -33,7 +33,7 @@ The flex wrap property can take on any of three values:
 ```css
 //where ul represents a flex container
 ul {
-  flex-direction: wrap || no-wrap || wrap-reverse;
+  flex-wrap: wrap || no-wrap || wrap-reverse;
   }
 ```
 
@@ -156,7 +156,7 @@ With the ```justify-content property```, the three flex-items may be aligned acr
 
 Fist off, the default value, ```flex-start```, groups all flex-items to the start of the main axis.
 ```css
-  li {
+  ul {
     justify-content: flex-start;
   }
 ```
@@ -165,7 +165,7 @@ Fist off, the default value, ```flex-start```, groups all flex-items to the star
 
 ```flex-end``` groups the flex-items to the end of the main axis.
 ```css
-  li {
+  ul {
     justify-content: flex-end;
   }
 ```
@@ -173,7 +173,7 @@ Fist off, the default value, ```flex-start```, groups all flex-items to the star
 
 ```Center``` does just you'd expect - centering the flex items along the main axis.
 ```css
-  li {
+  ul {
     justify-content: center;
   }
 ```
@@ -181,7 +181,7 @@ Fist off, the default value, ```flex-start```, groups all flex-items to the star
 
 ```Space-between``` keeps the same space between each flex item.
 ```css
-  li {
+  ul {
     justify-content: space-between;
   }
 ```
@@ -194,7 +194,7 @@ Uhmm, did you notice anything different here? Take a look again:
 
 Finally, ```space-around``` keeps the same spacing around flex items.
 ```css
-  li {
+  ul {
     justify-content: space-around;
   }
 ```
