@@ -81,7 +81,8 @@ I guess that helped clear up some confusion.
 
 You're almost at the end! In the concluding article, I'll discuss browser support, helpful links and resources to get you moving. I'm sure you'd love it.
 
-_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
-If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+_Don't forget to [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+
+_Free PDF version available [here](bit.ly/und_f)._
 
 **Next Read: [CONCLUSION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/10.%20Conclusion/readme.md)**

@@ -403,7 +403,8 @@ Here's  a quick tip for dealing with the footer. You may break the entire footer
 
 Wow. I can't believe you got to this point. That's great! You're becoming a Flexbox ninja now. Next, we will see how Flexbox helps with responsive designs.
 
-_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
-If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+_Don't forget to [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+
+_Free PDF version available [here](bit.ly/und_f)._
 
 **Next Read: [RESPONSIVE DESIGN WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09. Responsive design with Flexbox/readme.md)**

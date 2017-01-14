@@ -110,7 +110,8 @@ If you're feeling good, I advice you actually write codes. Try implementing the 
 
 See you in the next article. Hopefully after you've completed the navigation system exercises :-)
 
-_like how this article is coming along? please don't forget to help [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
-If you prefer to read the entire tutorial in a single pdf document, [just tell me where to send it](https://ohansemmanuel.typeform.com/to/zD5yI7)._
+_Don't forget to [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+
+_Free PDF version available [here](bit.ly/und_f)._
 
 **Next Read: [SWITCHING FLEX DIRECTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/06.%20Switching%20Flex%20direction/readme.md)**
