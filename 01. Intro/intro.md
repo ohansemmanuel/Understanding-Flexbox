@@ -8,17 +8,23 @@ Don't fret. I really would walk you through all you need to know. So, let's get 
 
 
 ## Why Use Flexbox?
-A lot of changes have been made to the CSS language in the past few years. The introduction of filters, transitions, and transforms to the css language were cool. We all loved them, but something else was missing. Something we all craved for.
+CSS has evolved a lot over the past few years. Designers loved the introduction of filters, transitions, and transforms. But something was missing. Something we all craved.
 
-Crafting Intelligent page layouts with CSS seemed to have persisted for too long, and this got many of us writing _hackish css_. We always had to deal with floats, table display hacks and faced the consequences they brought. If you've written CSS for sometime, you can relate with this, and if not, welcome to a better world!
+Crafting Intelligent page layouts with CSS seemed to have persisted for too long, and this got many of us writing hacky CSS.
 
-It seems like our agonies as designers and front-end developers have finally been heard. This time, in grand style. All that hackish CSS may all be gone now. No more incessant use of floats, table-cell displays and hacks you never understood. It's time to embrace a cleaner modern syntax for crafting intelligent layouts. Welcome the CSS Flexbox model.
+We always had to deal with floats, table display hacks, and the consequences they brought. If you’ve written CSS for sometime, you can probably relate to this. And if not, welcome to a better world!
+
+It seems like our prayers as designers and front-end developers have finally been heard. This time, in grand style.
+
+Now we can all ditch those hacky CSS tricks. No more incessant use of floats, table-cell displays.
+
+It’s time to embrace a cleaner modern syntax for crafting intelligent layouts. Welcome the CSS Flexbox model.
 
 ## What Is Flexbox?
 According to the specification, the flexbox model provides for an efficient way to layout, align, and distribute space among elements within your document, even when the viewport and the size of your elements is unknown and/or dynamic.  
-If that sound too formal, I understand the feeling. In just a bit, I'll explain what that means in "English".
+If that sound too formal, I understand the feeling. In just a bit, I'll explain what that means in plain English.
 
-Whether you write css in your dreams or you're just getting started, you'll feel right at home. Since I've got a lot to show to you, go grab a cup of your favorite drink as I take you through a pretty long journey.
+Whether you write css in your dreams or you're just getting started, you'll feel right at home. 
 
 
 ## How do I start using the flexbox model?
