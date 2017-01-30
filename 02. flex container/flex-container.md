@@ -22,7 +22,7 @@ ul {
 The ```flex-direction``` property let's us decide how the **flex items** are laid out. Either horizontally, vertically or reversed in both directions.  
 Technically, horizontal and vertical isn't what it's called in the _"flex world"_. These are described as **main-axis** and **cross axis**, and the defaults are shown below:
 
-![main axis](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/flexbox-engl_zpsgmowsbbi.jpg)
+![main axis](http://i.imgur.com/8DgaIMV.jpg)
 
 By default, the `flex-direction` property is set to `row` and it aligns the flex-item(s) along the main axis. This explains what happened with our unordered list at the start of this article. Even though `flex-direction` property wasn't explicitly set, it took on the default value of `row` and so the flex items were laid across the main-axis, stacking horizontally from left to right.
 
@@ -33,7 +33,7 @@ The flex wrap property can take on any of three values:
 ```css
 //where ul represents a flex container
 ul {
-  flex-wrap: wrap || no-wrap || wrap-reverse;
+  flex-wrap: wrap || nowrap || wrap-reverse;
   }
 ```
 
@@ -62,11 +62,11 @@ So let's go a bit further...Add a ridiculous amount of flex-items to our parent 
 
 
 Again, the flex container adapts to fit all children in, even if I need to scroll my browser horizontally.  
-This is the default behavior of every flex container. It keeps on accommodating more flex items on a single line because the ```flex-wrap``` property defaults to ```no-wrap```.
+This is the default behavior of every flex container. It keeps on accommodating more flex items on a single line because the ```flex-wrap``` property defaults to ```nowrap```.
 
 ```css
 ul {
-	flex-wrap: no-wrap; /*Keep on taking more flex items without breaking (wrapping)*/
+	flex-wrap: nowrap; /*Keep on taking more flex items without breaking (wrapping)*/
 }
 ```
 
@@ -103,7 +103,7 @@ ul {
 ![image explaining the flex-flow property](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/flexbox-flex-flow_zpshybxvgcy.jpg)
 
 
-Try out the other combinations this could take. ```flex-flow: row no-wrap```, ```flex-flow: column wrap```, ```flex-flow: column no-wrap```
+Try out the other combinations this could take. ```flex-flow: row nowrap```, ```flex-flow: column wrap```, ```flex-flow: column nowrap```
 I'm sure you understand what those would produce. Give it a try.
 
 ### 4. Justify-content

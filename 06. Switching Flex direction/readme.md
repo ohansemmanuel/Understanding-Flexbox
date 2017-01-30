@@ -7,11 +7,11 @@ When starting off with learning the flexbox model, this part was a bit confusing
 
 You remember when I talked about the default main and cross axis being in the "left-to-right" and "top-to-bottom" directions?
 
-![main axis](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/flexbox-engl_zpsgmowsbbi.jpg)
+![main axis](http://i.imgur.com/8DgaIMV.jpg)
 
 Well, you can change that too. Which is exactly what happens when you use ```flex-direction: column``` as described in an earlier section (remember the default value is ```flex-direction: row```). When you do this, the main and cross axis are changed as seen below:
 
-![flex-direction-changed](http://i.imgur.com/01q5kWa.jpg)
+![flex-direction-changed](http://i.imgur.com/DrkcwNn.jpg)
 
 If you've ever written any text in the English language, then you already know he language is written from left-to-right and top-to-bottom. That's equally the direction taken for the default main and cross axis of the flexbox too.  
 However, on switching the flex direction to ```column```, it no longer follows the "English Language" pattern but Japanese! Oh yes, Japanese.
@@ -20,7 +20,7 @@ If you've written any text in the Japanese language, then this will be familiar!
 
 That explains why this can be a bit confusing for English writers.
 
-![flex-direction-changed](http://i.imgur.com/01q5kWa.jpg)
+![flex-direction-changed](http://i.imgur.com/DrkcwNn.jpg)
 
 Take a look at this example. The standard unordered list with 3 list items, except this time I'll change the flex-direction.
 
@@ -91,7 +91,7 @@ However, doing that now does NOT work.
 
 Since the direction's changed, the center  is along the cross-axis. Take a look again:
 
-![flex-direction-changed](http://i.imgur.com/01q5kWa.jpg)
+![flex-direction-changed](http://i.imgur.com/DrkcwNn.jpg)
 
 So let's think in Japanese. The main-axis is from top-to-down, you don't need that. The cross-axis is from left-to-right. Sounds like what you need.
 Hence, you need to "__move the flex-items from the start of the cross-axis to the center".

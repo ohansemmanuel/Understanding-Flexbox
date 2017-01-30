@@ -2,7 +2,8 @@
 	box-sizing: border-box;
 }
 
-html {
+html,
+body {
 	height: 100%;
 }
 body {
@@ -18,7 +19,7 @@ body {
 
 
 main {
-	flex: 1 0 auto;
+	flex: 1 0 auto; /*edited*/
 	display: flex;
 }
 
@@ -36,7 +37,7 @@ aside i.fa {
 }
 
 section.content {
-	flex: 1 0 auto;
+	flex: 1 1 auto; /*edited - main guy*/
 	display: flex;
 	flex-direction: column;
 }
@@ -49,7 +50,7 @@ section.content .music-head {
 }
 
 section.content .music-head  .catty-music{
-	flex: 1 0 auto;
+	flex: 1 1 auto; /*edited - main guy*/
 	display: flex;
 	flex-direction: column;
 	font-weight: 300;
@@ -85,6 +86,7 @@ section.content .music-list {
 	flex: 1 0 auto;
 	list-style-type: none;
 	padding: 5px 10px 0px;
+	background: #fff;
 }
 
 li {
@@ -109,7 +111,7 @@ li:nth-child(2n) {
 
 footer {
 	display: flex;
-	flex: 0 0 90px;
+	flex: 0 0 90px; 
 	padding: 10px;
 	color: #fff;
 	background-color: rgba(61, 100, 158, .9);
@@ -127,7 +129,7 @@ footer {
 .catty-music-controls {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-between;	
 	width: 50%;
 }
 
