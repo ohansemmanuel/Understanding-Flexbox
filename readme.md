@@ -60,6 +60,6 @@ But before you get started building user interfaces, I’m going to walk you thr
 
 Let’s get started.
 
-_Free PDF version available [here](bit.ly/und_f)._
+_Free PDF version available [here](https://ohansemmanuel.github.io/uf_download.html)._
 
 #### Next Read: [INTRODUCTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/01. Intro/intro.md)
