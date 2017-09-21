@@ -5,15 +5,15 @@
 ![Understanding Flexbox](http://i.imgur.com/GzOC1nh.png)
 
 ## Table of Contents
-01. [Introduction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/01. Intro/intro.md)
-02. [The Flex-container Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02. flex container/flex-container.md)
-03. [The Flex-item Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/03. flex item properties/flex items.md)
-04. [Absolute and Relative Flex](https://github.com/ohansemmanuel/Understanding-Flexbox/tree/master/04. Absolute and Relative flex items)
+01. [Introduction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/01.%20Intro/intro.md)
+02. [The Flex-container Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02.%20flex%20container/flex-container.md)
+03. [The Flex-item Properties](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/03.%20flex%20item%20properties/flex%20items.md)
+04. [Absolute and Relative Flex](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/04.%20Absolute%20and%20Relative%20flex%20items/readme.md)
 05. [Auto-Margin Alignment](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/05.%20Auto%20margin%20alignment/auto_margin.md)
-06. [Switching Flex Direction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/06. Switching Flex direction/readme.md)
+06. [Switching Flex Direction](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/06.%20Switching%20Flex%20direction/readme.md)
 07. [Flexbox Solved That](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/07.%20Flexbox%20solved%20that/readme.md)
 08. [Building a Music App Layout with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/08.%20Building%20a%20Music%20app%20Layout%20with%20Flexbox/readme.md)
-09. [Responsive design with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09. Responsive design with Flexbox/readme.md)
+09. [Responsive design with Flexbox](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09.%20Responsive%20design%20with%20Flexbox/readme.md)
 10. [Conclusion](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/10.%20Conclusion/readme.md)
 
 
