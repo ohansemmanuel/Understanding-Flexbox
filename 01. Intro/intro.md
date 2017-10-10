@@ -106,8 +106,8 @@ This is the foundation for using the flexbox model, and as soon as that's unders
 So, here is where I wrap up the Introduction to the Flexbox model.
 
 
-_Don't forget to [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_  
 
 _Free PDF version available [here](bit.ly/und_f)._
 
-**Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02. flex container/flex-container.md)**
+**Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02.%20flex%20container/flex-container.md)**

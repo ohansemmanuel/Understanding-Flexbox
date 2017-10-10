@@ -62,4 +62,4 @@ Let’s get started.
 
 _Free PDF version available [here](https://ohansemmanuel.github.io/uf_download.html)._
 
-#### Next Read: [INTRODUCTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/01. Intro/intro.md)
+#### Next Read: [INTRODUCTION](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/01.%20Intro/intro.md)

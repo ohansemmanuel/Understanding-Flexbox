@@ -83,7 +83,7 @@ I guess that helped clear up some confusion.
 
 You're almost at the end! In the concluding article, I'll discuss browser support, helpful links and resources to get you moving. I'm sure you'd love it.
 
-_Don't forget to [spread the word on Twitter](http://www.twitter.com/intent/tweet?text=I am currently reading this super cool article on the Flexbox model via @ohansemmanuel. Check it out https://github.com/ohansemmanuel/Understanding-Flexbox). Much appreciated!_  
+_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_  
 
 _Free PDF version available [here](bit.ly/und_f)._
 
