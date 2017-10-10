@@ -110,4 +110,4 @@ _Don't forget to [spread the word on Twitter](http://www.twitter.com/intent/twee
 
 _Free PDF version available [here](bit.ly/und_f)._
 
-**Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02. flex container/flex-container.md)**
+**Next Read: [THE FLEX-CONTAINER PROPERTIES](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/02.%20flex%20container/flex-container.md)**
