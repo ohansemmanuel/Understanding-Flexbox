@@ -407,4 +407,4 @@ _Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreci
 
 _Free PDF version available [here](bit.ly/und_f)._
 
-**Next Read: [RESPONSIVE DESIGN WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09. Responsive design with Flexbox/readme.md)**
+**Next Read: [RESPONSIVE DESIGN WITH FLEXBOX](https://github.com/ohansemmanuel/Understanding-Flexbox/blob/master/09.%20Responsive%20design%20with%20Flexbox/readme.md)**
