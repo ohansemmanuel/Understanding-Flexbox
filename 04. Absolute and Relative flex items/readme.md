@@ -41,7 +41,7 @@ li {
 
 ![relative_flex](http://image.prntscr.com/image/4599e12c9915403fa086a5f1cd4dc20b.png)
 
-Incase you forgot, ```flex: 1 1 auto``` is same as setting: ```flex-grow: 1``` ```flex-shrink: 1``` and ```flex-basis: auto```
+In case you forgot, ```flex: 1 1 auto``` is same as setting: ```flex-grow: 1``` ```flex-shrink: 1``` and ```flex-basis: auto```
 
 Using the framework I established much earlier : The initial width of the flex-items are automatically computed ```flex-basis: auto```, and then they "grow" to fit the available space ```flex-grow: 1```.
 
