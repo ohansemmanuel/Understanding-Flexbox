@@ -4,7 +4,7 @@
 
 This is perhaps the shortest article in this series. However, it is important. Remember the goal of this series is to "understand" the inner workings of the Flexbox model.
 
-So, what really is the difference between these two?. The major difference between these two is got to do with spacing.
+So, what really is the difference between these two? The major difference between these two is got to do with spacing.
 
 The spacing within a relative flex item is computed based on it's content size. In an absolute flex item, it is based solely on "flex" NOT content.
 
