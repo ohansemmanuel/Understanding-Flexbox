@@ -2,7 +2,7 @@
 
 ![Understanding Flexbox - building a music app](http://i.imgur.com/WTTAWO5.jpg)
 
-After walking through the boring rigorous stuffs, you deserve some fun project. It's time to walk through a practical example and apply your newly acquired Flex skills!
+After walking through the boring rigorous stuff, you deserve some fun project. It's time to walk through a practical example and apply your newly acquired Flex skills!
 
 It took me days to come up with a good project. Out of the lack of a creative option, I came up with a music app layout for cats. I call it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere in mars :-)
 
@@ -114,7 +114,7 @@ The reason may not be evident here because the flex-direction is changed. In som
 
 It's like saying: _"Please take on an initial width based on your content size, but never shrink."_ This will cause the flex-item to be at least as big as its width or height (if declared) or its default content size.
 
-Please don't forget the framework for which I broke down the ```flex-shorthand``` property. There's going to be a lot of shorthand stuffs coming on!
+Please don't forget the framework for which I broke down the ```flex-shorthand``` property. There's going to be a lot of shorthand stuff coming on!
 
 Now that you have things coming together, put in a bit of styling to define spacing, colors, etc.
 
