@@ -4,7 +4,7 @@
 
 After walking through the boring rigorous stuff, you deserve some fun project. It's time to walk through a practical example and apply your newly acquired Flex skills!
 
-It took me days to come up with a good project. Out of the lack of a creative option, I came up with a music app layout for cats. I call it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere in mars :-)
+It took me days to come up with a good project. Out of the lack of a creative option, I came up with a music app layout for cats. I call it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere on Mars :-)
 
 Here's what the finished layout looks like, and it is completely laid out with Flexbox.
 
