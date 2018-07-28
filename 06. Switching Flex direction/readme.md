@@ -13,10 +13,10 @@ Well, you can change that too. Which is exactly what happens when you use ```fle
 
 ![flex-direction-changed](http://i.imgur.com/DrkcwNn.jpg)
 
-If you've ever written any text in the English language, then you already know he language is written from left-to-right and top-to-bottom. That's equally the direction taken for the default main and cross axis of the flexbox too.  
+If you've ever written any text in the English language, then you already know he language is written from left-to-right and top-to-bottom. That's equally the direction taken for the default main and cross axis of the flexbox too.
 However, on switching the flex direction to ```column```, it no longer follows the "English Language" pattern but Japanese! Oh yes, Japanese.
 
-If you've written any text in the Japanese language, then this will be familiar! (for the records, I've never written any texts in Japanese). Japanese text is written from top-to-bottom and left-to-right! Not so weird, huh?
+If you've written any text in the Japanese language, then this will be familiar! (for the record, I've never written any texts in Japanese). Japanese text is written from top-to-bottom and left-to-right! Not so weird, huh?
 
 That explains why this can be a bit confusing for English writers.
 
@@ -94,7 +94,7 @@ Since the direction's changed, the center  is along the cross-axis. Take a look 
 ![flex-direction-changed](http://i.imgur.com/DrkcwNn.jpg)
 
 So let's think in Japanese. The main-axis is from top-to-down, you don't need that. The cross-axis is from left-to-right. Sounds like what you need.
-Hence, you need to "__move the flex-items from the start of the cross-axis to the center".
+Hence, you need to "__move the flex-items from the start of the cross-axis to the center__".
 
 Any flex-container property rings a bell here? Yeah, the ```align-items``` property . The `align-items` property deals with alignment on the cross-axis. So to move those to the center, you'd do this:
 
@@ -114,7 +114,7 @@ While studying the flexbox model, I noticed a lot of CSS books skipped this part
 
 I'm sure you learnt something new again. I'm having fun explaining this. I hope you are having fun too :-)
 
-_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_  
+_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_
 
 _Free PDF version available [here](bit.ly/und_f)._
 
