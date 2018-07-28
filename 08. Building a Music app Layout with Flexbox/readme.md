@@ -4,15 +4,15 @@
 
 After walking through the boring rigorous stuffs, you deserve some fun project. It's time to walk through a practical example and apply your newly acquired Flex skills!
 
-It took me days to come up with a good project. Out of the lack of a creative option, I came up with a music app layout for cats. I call it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere in mars :-)  
+It took me days to come up with a good project. Out of the lack of a creative option, I came up with a music app layout for cats. I call it catty music. Maybe by 2036, we'd have cats singing in rock bands somewhere in mars :-)
 
 Here's what the finished layout looks like, and it is completely laid out with Flexbox.
 
 ![catty-board](http://i.imgur.com/EYSoc5A.png)
 
-You may view it online [here](http://output.jsbin.com/wubudog/1)  
+You may view it online [here](http://output.jsbin.com/wubudog/1)
 
-I've got a confession to make though. I've done something considered wrong by many. I've completely built the overall layout with Flexbox.  
+I've got a confession to make though. I've done something considered wrong by many. I've completely built the overall layout with Flexbox.
 For many reasons this may not be ideal, but it's intentional in this scenario. I want to point out a lot of "what can I do with flexbox" within one project.
 
 If you're curious as to when it's considered right or wrong to use the Flexbox model, you may check out my article, [Flexbox is awesome but it's NOT welcome here](https://medium.com/@ohansemmanuel/flexbox-is-awesome-but-its-not-welcome-here-a90601c292b6#.zbf4msgoh)
@@ -22,7 +22,7 @@ I got that off my chest! Now I'm sure no one's going to yell at me after reading
 
 Everything in Catty Music is laid out using the flexbox model - this is intentional to show off what's possible. So let's get this thing built!
 
-As with any reasonable project, a bit of planning goes a long way sifting through inefficiencies. I'll take you through a planned approach to building the __catty music__ layout.  
+As with any reasonable project, a bit of planning goes a long way sifting through inefficiencies. I'll take you through a planned approach to building the __catty music__ layout.
 
 So where do we start?
 
@@ -114,7 +114,7 @@ The reason may not be evident here because the flex-direction is changed. In som
 
 It's like saying: _"Please take on an initial width based on your content size, but never shrink."_ This will cause the flex-item to be at least as big as its width or height (if declared) or its default content size.
 
-Please don't forget the framework for which I broke down the ````flex-shorthand``` property. There's going to be a lot of shorthand stuffs coming on!
+Please don't forget the framework for which I broke down the ```flex-shorthand``` property. There's going to be a lot of shorthand stuffs coming on!
 
 Now that you have things coming together, put in a bit of styling to define spacing, colors, etc.
 
@@ -255,12 +255,12 @@ Put in some stuff there. What do you think?  You may take a look at the finished
           <p><span class="catty-cloud">CATTY CLOUD SYNC</span></p>
       </li>
     </ul>
-</section>    
+</section>
 ```
 
 Uhmm, I added a bit more than the last time but its pretty simple.
 
-I populated the empty content section with a ```div``` that holds the album art and some details of the catty album. What about the unordered list?  
+I populated the empty content section with a ```div``` that holds the album art and some details of the catty album. What about the unordered list?
 The ```ul``` holds a list of songs from the amazing album! The song title, artiste, time and "catty cloud sync" are contained in individual paragraphs within the list.
 
 So what are you going to do with styling? See what I did. Can you figure it out?
@@ -280,7 +280,7 @@ You should also deal with it's flex-items:
 ```css
 .music-head {
   flex: 0 0 280px; /*Same memo, don't grow or shrink - stay at 280px*/
-  display: flex;  
+  display: flex;
   padding: 40px;
   background-color: #4e4e4e;
 }
@@ -293,7 +293,7 @@ You should also deal with it's flex-items:
 
 ```
 
-```.music-head``` holds the album art and other related album details. Same memo, do not grow or shrink but keep a height of 280px. Height NOT width? Yes!  
+```.music-head``` holds the album art and other related album details. Same memo, do not grow or shrink but keep a height of 280px. Height NOT width? Yes!
 The parent element already had the  ```flex-direction``` switched. Oh, and because I can see into the future, you're going to need this to be a flex-container later on too, so I put in ```display: flex```
 ```.music-list``` holds the list of songs and it feels up the remaining available space shared with ```.music-head``` above.
 
@@ -403,7 +403,7 @@ Here's  a quick tip for dealing with the footer. You may break the entire footer
 
 Wow. I can't believe you got to this point. That's great! You're becoming a Flexbox ninja now. Next, we will see how Flexbox helps with responsive designs.
 
-_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_  
+_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_
 
 _Free PDF version available [here](bit.ly/und_f)._
 

@@ -23,7 +23,7 @@ Consider the unordered list below, containing 4 list items.
 	<li>1</li>
 	<li>2</li>
 	<li>3</li>
-	<li>4</li>		  	 	 			
+	<li>4</li>
 </ul>
 ```
 
@@ -42,7 +42,7 @@ Without changing the source order means you do not get to do this:
 	<li>2</li>
 	<li>3</li>
 	<li>4</li>
-	<li>1</li>	  	 	 			
+	<li>1</li>
 </ul>
 ```
 
@@ -58,7 +58,7 @@ All you need to do is make the ```order``` value of flex item number 1 higher th
 
 ```
 
-The flex items are then re-ordered from lowest to highest. Do not forget that list items 2, 3, and 4 all have the order value of 0. ```order: 0```. Flex-item 1 has an order value of 1. ```order: 1```.  
+The flex items are then re-ordered from lowest to highest. Do not forget that list items 2, 3, and 4 all have the order value of 0. ```order: 0```. Flex-item 1 has an order value of 1. ```order: 1```.
 
 ![one](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_23_zpsh8wuweny.png)
 
@@ -67,11 +67,11 @@ Flex-items 2, 3, and 4 all have an order value of 0. So, the html source order i
 Sure you got that!
 
 
-What if you gave flex-item 2 an order value of 2? Yes, you guessed right. It goes up the stack too, since it now represents the flex-item with the highest ```order`` value.
+What if you gave flex-item 2 an order value of 2? Yes, you guessed right. It goes up the stack too, since it now represents the flex-item with the highest ```order``` value.
 
 ![one and two](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_24_zpss9yeoaap.png)
 
-And what happens when two flex items have the same order value?  
+And what happens when two flex items have the same order value?
 In the example below, flex-item 1 and 3 are given the same ```order values```.
 
 ```css
@@ -82,7 +82,7 @@ In the example below, flex-item 1 and 3 are given the same ```order values```.
 	li:nth-child(3) {
 		order: 1;
 	}
-```		
+```
 
 ![one and three](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_25_zpsu0aodhvy.png)
 
@@ -127,14 +127,14 @@ Let's move  on.
 ### 3. Flex basis
 Remember how I said the beauty of the flex-items is being "flexible"? Well, it appears you also have a control over that. How cool.
 
-The ```flex-basis``` property specifies the **initial** size of a flex-item. Before the ```flex-grow``` or ```flex-shrink``` properties adjust it's size to fit the container or not.  
+The ```flex-basis``` property specifies the **initial** size of a flex-item. Before the ```flex-grow``` or ```flex-shrink``` properties adjust it's size to fit the container or not.
 
 
 The previous statement is really important- so I'm taking a moment to reinforce that.
 
 The default value is ```flex-basis: auto```.  ```Flex-basis``` can take on any values you'd use on the normal width property. That is, ```percentages || ems || rems || pixels``` etc
 
->Nb:  when trying to set the basis property to a zero based value, Use the unit also. e.g. Use ```flex-basis: 0px```` not just ```flex-basis: 0```
+>Nb:  when trying to set the basis property to a zero based value, Use the unit also. e.g. Use ```flex-basis: 0px``` not just ```flex-basis: 0```
 
 I'd bring back the 'one list' example here again.
 
@@ -225,10 +225,10 @@ Let me break this down, just a bit...
 
 ![flex-shorthand](http://i.imgur.com/5DV0ZeR.jpg)
 
-It's easier to understand this by taking a look first at the ```flex-basis``` property first. It is set to ```auto```, which means the initial width of the flex-item will be _automatically_ determined based off the size of the contents. Got that?  
+It's easier to understand this by taking a look first at the ```flex-basis``` property first. It is set to ```auto```, which means the initial width of the flex-item will be _automatically_ determined based off the size of the contents. Got that?
 
 Moving on to  the next property, the ```flex-grow``` value being zero also means that the ```flex-grow``` property wouldn't tamper with the initial width of the flex item. The switch's off.
-Since flex-grow controls the "growth" of the flex-items and it's set to zero, the flex-items here wouldn't "grow" to fit the screen.  
+Since flex-grow controls the "growth" of the flex-items and it's set to zero, the flex-items here wouldn't "grow" to fit the screen.
 Finally, the flex shrink value being 1, says this - _"shrink the flex-item when it is necessary"_
 
 Here is what this looks like when applied to our list items:
@@ -249,7 +249,7 @@ This is same as ```flex: none```. Using the same framework i established earlier
 
 ![flex-shorthand-2](http://i.imgur.com/MYYrQia.png)
 
-It doesn't look like anything's changed, right?  
+It doesn't look like anything's changed, right?
 Try resizing your browser, and you'll notice that the flex items do NOT shrink even if they pop out of the parent element (we will deal with this later). You'd have to scroll your browser horizontally to view all the content.
 
 ![flex-shorthand](http://i.imgur.com/JYZl3GJ.png)
@@ -358,7 +358,7 @@ li {
 
 You're pretty much getting ready for the fun part now :-)
 
-_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_  
+_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_
 
 _Free PDF version available [here](bit.ly/und_f)._
 
