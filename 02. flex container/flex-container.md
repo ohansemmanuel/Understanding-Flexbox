@@ -16,7 +16,7 @@ The ```Flex-direction``` property may take any of four values:, and it controls 
 /*where ul represents a flex container*/
 ul {
   flex-direction: row || column || row-reverse || column-reverse;
-  }
+}
 ```
 
 The ```flex-direction``` property let's us decide how the **flex items** are laid out. Either horizontally, vertically or reversed in both directions.  
@@ -34,7 +34,7 @@ The flex wrap property can take on any of three values:
 //where ul represents a flex container
 ul {
   flex-wrap: wrap || nowrap || wrap-reverse;
-  }
+}
 ```
 
 Let's try sticking in a lot more list items within our unordered list. What do you think? Will our flex container resize or break up the list items?
@@ -132,20 +132,20 @@ Consider the simple unordered list below:
 Adding up some basic styling...
 
 ```css
-  ul {
-    border: 1px solid red;
-    padding: 0;
-    list-style: none;
-    background-color: #e8e8e9;
-  }
+ul {
+	border: 1px solid red;
+	padding: 0;
+	list-style: none;
+	background-color: #e8e8e9;
+}
 
-  li {
-      background-color: #8cacea;
-      width: 100px;
-      height: 100px;
-      margin: 8px;
-      padding: 4px;
-  }
+li {
+	background-color: #8cacea;
+	width: 100px;
+	height: 100px;
+	margin: 8px;
+	padding: 4px;
+}
 ```
 
 We have this:
@@ -156,9 +156,9 @@ With the ```justify-content property```, the three flex-items may be aligned acr
 
 Fist off, the default value, ```flex-start```, groups all flex-items to the start of the main axis.
 ```css
-  ul {
-    justify-content: flex-start;
-  }
+ul {
+	justify-content: flex-start;
+}
 ```
 
 ![flex-start](http://i.imgur.com/Ct9Q1P5.png)
@@ -181,9 +181,9 @@ Fist off, the default value, ```flex-start```, groups all flex-items to the star
 
 ```Space-between``` keeps the same space between each flex item.
 ```css
-  ul {
-    justify-content: space-between;
-  }
+ul {
+  justify-content: space-between;
+}
 ```
 ![space-between](http://i.imgur.com/cUYgqJs.png)
 
@@ -194,9 +194,9 @@ Uhmm, did you notice anything different here? Take a look again:
 
 Finally, ```space-around``` keeps the same spacing around flex items.
 ```css
-  ul {
-    justify-content: space-around;
-  }
+ul {
+  justify-content: space-around;
+}
 ```
 ![space-around](http://i.imgur.com/anlXv8t.png)
 
@@ -237,7 +237,7 @@ It defines how flex-items are laid out on the **cross axis**. This is the differ
 
 ![baseline](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_17_zpsovbaj6w0.png)
 
-"Baseline" really sounds fancy. It appears to look just like ````flex-start``` but it is subtly different. What the heck is "baseline"? This should help:
+"Baseline" really sounds fancy. It appears to look just like ```flex-start``` but it is subtly different. What the heck is "baseline"? This should help:
 
 ![Understanding-Flexbox: Baseline](http://i.imgur.com/7vwt8Pb.jpg)  
 
@@ -247,7 +247,7 @@ Isn't it awesome the amount of layout control you have here?
 ### 6. Align-content
 Remember when you added more list elements to our unordered list? You got a multi-line flex container by using the ```flex-wrap``` property. The ```align-content``` property is used on multi-line flex-containers.
 
-It takes the same values as ```align-items``` apart from ````baseline```. By definition, it controls how the flex-items are aligned in a multi-line flex container. Just like ```align-items```, the default value is also ```stretch```
+It takes the same values as ```align-items``` apart from ```baseline```. By definition, it controls how the flex-items are aligned in a multi-line flex container. Just like ```align-items```, the default value is also ```stretch```
 
 These are values you're familiar with. So, here's how they affect a multi-line flex-container.
 
