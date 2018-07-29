@@ -2,9 +2,9 @@
 
 ![Understanding Flexbox - responsive design](http://i.imgur.com/kCh7pgs.jpg)
 
-Books have been written on responsive design, good books at that. 
+Books have been written on responsive design, good books at that.
 
-Since this article focuses on the flexbox model, I wouldn't be taking a deep plunge into general state of responsive designs.
+Since this article focuses on the flexbox model, I won't be taking a deep plunge into general state of responsive designs.
 
 
 Like I stated somewhere earlier, we do get some responsiveness out of the box with the flexbox model. Flexbox as in "flexible box". However, it's possible to target various screen sizes via media queries and then change the flex behavior.
@@ -83,7 +83,7 @@ I guess that helped clear up some confusion.
 
 You're almost at the end! In the concluding article, I'll discuss browser support, helpful links and resources to get you moving. I'm sure you'd love it.
 
-_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_  
+_Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_
 
 _Free PDF version available [here](bit.ly/und_f)._
 
