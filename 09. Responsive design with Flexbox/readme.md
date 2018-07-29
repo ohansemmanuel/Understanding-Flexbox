@@ -81,7 +81,7 @@ Any styles within the code block will only apply to devices that match the expre
 
 I guess that helped clear up some confusion.
 
-You're almost at the end! In the concluding article, I'll discuss browser support, helpful links and resources to get you moving. I'm sure you'd love it.
+You're almost at the end! In the concluding article, I'll discuss browser support, helpful links and resources to get you moving. I'm sure you'll love it.
 
 _Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_
 
