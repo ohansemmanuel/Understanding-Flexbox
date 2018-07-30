@@ -14,6 +14,7 @@ _image from alberteinsteinquotes.com_
 Here's a good example.
 
 Consider the unordered list marked up and styled below
+
 ```html
 <ul>
 	<li>
@@ -27,13 +28,13 @@ Consider the unordered list marked up and styled below
 
 ```css
 ul {
-	display: flex; /*flexbox activated*/
+  display: flex; /*flexbox activated*/
 }
 
 li {
-	flex: auto; /*remember this is same as flex: 1 1 auto;*/
-	border: 2px solid red;
-	margin: 2em;
+  flex: auto; /*remember this is same as flex: 1 1 auto;*/
+  border: 2px solid red;
+  margin: 2em;
 }
 ```
 
@@ -41,12 +42,11 @@ li {
 
 ![relative_flex](http://image.prntscr.com/image/4599e12c9915403fa086a5f1cd4dc20b.png)
 
-In case you forgot, ```flex: 1 1 auto``` is same as setting: ```flex-grow: 1``` ```flex-shrink: 1``` and ```flex-basis: auto```
+In case you forgot, `flex: 1 1 auto` is same as setting: `flex-grow: 1` `flex-shrink: 1` and `flex-basis: auto`
 
-Using the framework I established much earlier : The initial width of the flex-items are automatically computed ```flex-basis: auto```, and then they "grow" to fit the available space ```flex-grow: 1```.
+Using the framework I established much earlier : The initial width of the flex-items are automatically computed `flex-basis: auto`, and then they "grow" to fit the available space `flex-grow: 1`.
 
-
-When flex-items have their widths computed automatically, ```flex-basis: auto```, it is based on the size of the content contained within the flex-item.
+When flex-items have their widths computed automatically, `flex-basis: auto`, it is based on the size of the content contained within the flex-item.
 
 The flex-items in the example above do NOT have contents of the same size. Hence, the sizes of the flex-items would be unequal.
 
@@ -62,7 +62,7 @@ A 'one-liner' does the magic.
 
 ```css
 li {
-	flex: 1 ; /*same as flex: 1 1 0. see flex: 'positive number'*/
+  flex: 1; /*same as flex: 1 1 0. see flex: 'positive number'*/
 }
 ```
 
@@ -71,12 +71,11 @@ li {
 ![absolute_flex](http://image.prntscr.com/image/8285e749472642fca16fcae7dc006ff9.png)
 
 Do you see both flex-items have the same widths this time?
-The initial widths of the flex-item is zero ```flex-basis: 0```, and then they 'grow' to fit the available space. This time around, the widths aren't computed automatically or based on content size. The widths are based on the flex value specified.
+The initial widths of the flex-item is zero `flex-basis: 0`, and then they 'grow' to fit the available space. This time around, the widths aren't computed automatically or based on content size. The widths are based on the flex value specified.
 
 So you got that.
 
 Here's a recap. Absolute flex-items have their widths based solely on flex, while relative flex items have their widths based on content size.
-
 
 _Don't forget to [spread the word on Twitter](http://ctt.ec/wZ5U9). Much appreciated!_
 
