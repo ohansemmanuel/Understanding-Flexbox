@@ -17,7 +17,7 @@ Well, you can change that too. Which is exactly what happens when you use `flex-
 If you've ever written any text in the English language, then you already know he language is written from left-to-right and top-to-bottom. That's equally the direction taken for the default main and cross axis of the flexbox too.
 However, on switching the flex direction to `column`, it no longer follows the "English Language" pattern but Japanese! Oh yes, Japanese.
 
-If you've written any text in the Japanese language, then this will be familiar! (for the record, I've never written any texts in Japanese). Japanese text is written from top-to-bottom and left-to-right! Not so weird, huh?
+If you've written any text in the Japanese language, then this will be familiar! (for the record, I've never written any texts in Japanese). Japanese text is written from top-to-bottom and right-to-left! Not so weird, huh?
 
 That explains why this can be a bit confusing for English writers.
 
